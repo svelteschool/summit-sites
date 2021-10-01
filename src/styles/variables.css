@@ -1,0 +1,43 @@
+:root {
+	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	line-height: 1.5;
+	--font-leading: 'Anton';
+	--font-heading: 'Overpass';
+	--font-body: 'Inter';
+
+	--primary-color: rgba(201, 46, 0, 1);
+	--primary-dark-color: rgba(154, 35, 0, 1);
+	--cover-background-light: #b02800;
+	--cover-background-dark: #9a2300;
+	--secondary-color: hsla(51, 87%, 39%, 1);
+	--tertiary-color: hsla(27, 84%, 35%, 1);
+	--highlight-color: #fdb003;
+	--white: #ffffff;
+
+	--bg-color: hsla(235, 13%, 16%, 1);
+	--bg-dark-color: hsla(0, 0%, 0%, 1);
+
+	--heading-color: hsla(0, 0%, 100%, 1);
+	--text-color: hsla(188, 42%, 89%, 1);
+
+	--twitter-blue: #1da1f2;
+
+	--full-width: 1180px;
+	--column-width: 570px;
+
+	--space: 1.5rem;
+	--max-width: 900px;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+	:root {
+		--cover-background-light: color(display-p3 0.6901 0.1568 0);
+		--cover-background-dark: color(display-p3 0.6039 0.1372 0);
+		--primary-color: color(display-p3 0.7882 0.18 0);
+		--primary-dark-color: color(display-p3 0.629 0.144 0.012);
+		--highlight-color: color(display-p3 0.9921 0.6901 0.0117);
+		--white: color(display-p3 1, 1, 1);
+		--twitter-blue: color(display-p3 0.319 0.653 0.966);
+	}
+}

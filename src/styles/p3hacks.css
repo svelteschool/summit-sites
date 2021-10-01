@@ -1,0 +1,57 @@
+.primary-text {
+	color: var(--primary-color);
+}
+.primary-bg {
+	background: var(--primary-color);
+}
+
+.highlight-text {
+	color: var(--highlight-color);
+}
+
+.highlight-bg {
+	background: var(--highlight-color);
+}
+
+.cover-light-bg {
+	background: var(--cover-background-light);
+}
+.cover-dark-bg {
+	background: var(--cover-background-dark);
+}
+
+@supports not (color: color(display-p3 1 1 1)) {
+	@supports (-webkit-background-clip: text) {
+		.primary-text {
+			background-image: url('/colors/primary.png');
+			background-size: cover;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.primary-bg {
+			background-image: url('/colors/primary.png');
+			background-size: cover;
+		}
+		.highlight-text {
+			background-image: url('/colors/highlight.png');
+			background-size: cover;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.highlight-bg {
+			background-image: url('/colors/highlight.png');
+			background-size: cover;
+		}
+
+		.cover-light-bg {
+			background-image: url('/colors/cover.png');
+			background-size: cover;
+		}
+		.cover-dark-bg {
+			background-image: url('/colors/cover-dark.png');
+			background-size: cover;
+		}
+	}
+}

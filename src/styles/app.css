@@ -1,0 +1,12 @@
+@import 'minireset.css/minireset.css';
+@import '@fontsource/fira-mono';
+@import '@fontsource/anton';
+@import '@fontsource/overpass/400.css';
+@import '@fontsource/overpass/600.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+
+@import './variables.css';
+@import './base.css';
+@import './layout.css';
+@import './p3hacks.css';
