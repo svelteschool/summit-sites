@@ -1,5 +1,5 @@
-<script lang="typescript">
-	export let title: string, text: string, href: string, id: string;
+<script>
+	export let title, text, href, id;
 </script>
 
 <section class="box stack container" {id}>

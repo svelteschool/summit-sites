@@ -18,7 +18,7 @@
 		<a href="/" class="silver sponsor">Silver 📏</a>
 		<a href="/" class="silver sponsor">Silver 📏</a>
 	</div>
-	<h3><small><a href="/sponsors" class="button">Become a sponsor</a></small></h3>
+	<h3><a href="/sponsors" class="button big highlight-bg">Become a sponsor</a></h3>
 </section>
 
 <style>
@@ -60,7 +60,10 @@
 	}
 
 	.silvers {
-		margin-top: 1rem 0.5rem;
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	h3 {
+		margin-top: 2.5rem;
 	}
 </style>

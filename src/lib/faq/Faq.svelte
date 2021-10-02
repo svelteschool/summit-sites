@@ -4,46 +4,46 @@
 		<hr />
 		<dl class="questions">
 			<dt>I want to sponsor the event!</dt>
-			<dl>
+			<dd>
 				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
 					>sponsors@sveltesummit.com</a
 				>
-				and tell us what you have in mind. We have three different levels of sponsorship: Platinum,
-				Gold and Silver. Our sponsor deck is available <a href="/">here</a>.
-			</dl>
+				and tell us what you have in mind. We have three different levels of sponsorship: Platinum, Gold
+				and Silver. Our sponsor deck is available <a href="/">here</a>.
+			</dd>
 			<dt>What is this?</dt>
-			<dl>
+			<dd>
 				Svelte Summit is an event dedicated to Svelte and everything that is happening in the
 				community. You'll be able to tune in to a full day of talks and discussions all while
 				chatting to other Svelthusiasts on the Discord server.
-			</dl>
+			</dd>
 			<dt>How do I watch it?</dt>
-			<dl>
+			<dd>
 				Once the day arrives, tune in to the <a
 					href="https://youtube.com/sveltesociety"
 					target="_blank"
 					rel="noopener noreferrer">Svelte Society YouTube channel</a
 				> and start watching. We'll also make sure to post a notice at the top of this page if you forget
 				where to go.
-			</dl>
+			</dd>
 			<dt>Will it be recorded?</dt>
-			<dl>
+			<dd>
 				Absolutely! You'll find it on the <a
 					href="https://youtube.com/sveltesociety"
 					target="_blank"
 					rel="noopener noreferrer">Svelte Society YouTube channel</a
 				> once the event has been finished.
-			</dl>
+			</dd>
 			<dt>Can you remind me when the date gets closer?</dt>
-			<dl>Yes, <a href="#signup">enter your email here</a>.</dl>
+			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
-			<dl>
+			<dd>
 				To submit a talk, please <a
 					href="https://sessionize.com/svelte-summit-fall-2021/"
 					target="_blank"
 					rel="noopener noreferrer">visit the CFP page</a
 				>. You can submit up to two talks, please be as thorough when describing it, as possible!
-			</dl>
+			</dd>
 		</dl>
 	</div>
 	<div class="stack center">
@@ -107,7 +107,7 @@
 		font-weight: 600;
 		margin-bottom: 0.5rem;
 	}
-	dl {
+	dd {
 		font-size: 1rem;
 		margin-bottom: 40px;
 	}

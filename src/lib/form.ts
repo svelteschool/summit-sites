@@ -12,11 +12,7 @@ export function enhance(
 		result: (res: Response, form: HTMLFormElement) => void;
 	}
 ) {
-	let current_token: {};
-
 	async function handle_submit(e: Event) {
-		const token = (current_token = {});
-
 		e.preventDefault();
 
 		const body = new FormData(form);
@@ -31,8 +27,6 @@ export function enhance(
 				},
 				body
 			});
-
-			if (token !== current_token) return;
 
 			if (res.ok) {
 				result(res, form);
