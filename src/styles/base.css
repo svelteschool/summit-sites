@@ -397,6 +397,11 @@ button.big {
 	padding: 1.25rem 2.5rem;
 	font-size: 1.25rem;
 }
+.button.small,
+button.small {
+	padding: 0.5rem 0.75rem;
+	font-size: 0.75rem;
+}
 
 /* This matches forms or form elements that are invalid *and* have been
 interacted with. Note that:

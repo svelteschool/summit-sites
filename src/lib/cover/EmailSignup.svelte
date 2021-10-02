@@ -8,6 +8,7 @@
 
 {#if !signedUp}
 	<form
+		class="background"
 		id="signup"
 		action="/subscribe"
 		method="post"
@@ -26,13 +27,11 @@
 			error: async (res) => {
 				const response = await res.json();
 
-				console.log('Response: ', response);
-
 				error = response.error.message;
 			}
 		}}
 	>
-		<div class="inputs">
+		<div class="container">
 			<input
 				class:error={error !== false}
 				name="email"
@@ -42,22 +41,23 @@
 			<button class="highlight-bg">Sign up to the mailing list</button>
 		</div>
 		{#if error}
-			<span>{error}</span>
+			<span class="error-message">{error}</span>
 		{/if}
 	</form>
 {:else}
-	thanks for signing up
+	<dialog class="background" open>Thanks for signing up. Please check your email.</dialog>
 {/if}
 
 <style>
-	form {
+	.background {
 		font-family: Inter;
 		padding: 1rem 1.5rem;
 		border-radius: 1rem;
+		border: none;
 		background: rgba(0, 0, 0, 0.1);
 	}
 
-	.inputs {
+	.container {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 0.75rem;
@@ -70,14 +70,22 @@
 		flex-grow: 2;
 	}
 
-	span {
+	.error-message {
 		margin-top: 1rem;
 		font-size: 0.8rem;
 		max-width: 40ch;
-		font-weight: 600;
+		font-weight: 400;
 	}
 
 	.error {
 		border: 2px solid red;
+	}
+
+	dialog {
+		position: static;
+		gap: 1rem;
+		color: var(--text-color);
+		font-size: 1rem;
+		font-weight: 600;
 	}
 </style>

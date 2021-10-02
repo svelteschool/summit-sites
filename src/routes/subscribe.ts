@@ -19,8 +19,6 @@ export const post: RequestHandler<Locals, FormData> = async (request) => {
 
 	const response = await rawResponse.json();
 
-	console.log(response);
-
 	if (request.headers.accept !== 'application/json') {
 		return {
 			status: 303,
