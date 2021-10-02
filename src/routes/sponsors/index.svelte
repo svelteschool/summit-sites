@@ -96,7 +96,7 @@
 		rel="noopener noreferrer"
 		class="stat stack box"
 	>
-		<img class="drop-shadow" src={satisfaction} alt="Developer Satisfaction" />
+		<img src={satisfaction} alt="Developer Satisfaction" />
 		<small>Most satisfying framework in State of JS 2020 Survey</small>
 	</a>
 	<a
@@ -105,7 +105,7 @@
 		rel="noopener noreferrer"
 		class="stat stack box"
 	>
-		<img class="drop-shadow" src={loved} alt="Most Loved Framework" />
+		<img src={loved} alt="Most Loved Framework" />
 		<small>Most loved framework in StackOverflow 2020 Survey</small>
 	</a>
 </div>
@@ -263,7 +263,7 @@
 		font-family: var(--font-heading);
 		line-height: 1.2;
 		text-align: center;
-		font-size: calc(34px + 5vw);
+		font-size: clamp(32px, 7vw, 80px);
 		word-spacing: 9999px;
 	}
 
@@ -291,10 +291,11 @@
 		max-width: 140px;
 	}
 
-	.drop-shadow {
+	img {
 		max-width: 500px;
 		filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 		border-radius: 6px;
+		object-fit: cover;
 	}
 
 	.box {

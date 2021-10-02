@@ -36,7 +36,7 @@
 	.cluster {
 		align-items: flex-start;
 		justify-content: flex-start;
-		--space: 0.5em;
+		--space: 0.2rem;
 	}
 
 	/* .active {
