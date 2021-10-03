@@ -19,6 +19,7 @@
 		margin: 2.5rem auto;
 		width: 100%;
 		--space: 2rem;
+		scroll-margin-top: 5rem;
 	}
 
 	p {

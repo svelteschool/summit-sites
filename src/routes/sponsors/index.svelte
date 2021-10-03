@@ -42,7 +42,7 @@
 	</p>
 </section>
 
-<ul class="grid">
+<ul class="grid info-boxes">
 	<li class="card">
 		<span class="highlight-text">5<small>k</small></span>
 		<span class="highlight-text desc">live attendees</span>
@@ -247,6 +247,11 @@
 		font-size: 2rem;
 	}
 
+	.info-boxes {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
 	.grid {
 		justify-content: start;
 		width: 100%;
@@ -263,7 +268,7 @@
 		font-family: var(--font-heading);
 		line-height: 1.2;
 		text-align: center;
-		font-size: clamp(32px, 7vw, 80px);
+		font-size: clamp(42px, 7vw, 80px);
 		word-spacing: 9999px;
 	}
 

@@ -33,6 +33,7 @@
 	>
 		<div class="container">
 			<input
+				required
 				class:error={error !== false}
 				name="email"
 				type="email"

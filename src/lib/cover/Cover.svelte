@@ -10,7 +10,7 @@
 	<h1 class="heading center">
 		<span class="title">SVELTE <span class="highlight-text">SUMMIT FALL</span></span>
 		<small>
-			<time>NOV 20 2021</time>
+			<time datetime="2021-11-20">NOV 20 2021</time>
 			<span class="subheading">THE 4TH VIRTUAL CONFERENCE ABOUT SVELTE</span>
 			<img class="leaves" src={leaves} alt="decorative fall leaves" />
 		</small>

@@ -82,14 +82,16 @@
 		margin: calc(var(--space) * -1);
 	}
 
+	h2 {
+		scroll-margin-top: 7rem;
+	}
+
 	.timezones {
 		--space: 0.75rem;
 	}
 
 	.zone {
 		padding: 8px 12px;
-		background-color: rgba(0, 0, 0, 0.5);
-		border-radius: 4px;
 		flex: 1 1 155px;
 	}
 
