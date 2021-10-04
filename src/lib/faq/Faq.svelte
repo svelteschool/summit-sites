@@ -9,7 +9,7 @@
 					>sponsors@sveltesummit.com</a
 				>
 				and tell us what you have in mind. We have three different levels of sponsorship: Platinum, Gold
-				and Silver. Our sponsor deck is available <a href="/">here</a>.
+				and Silver. Our sponsor deck is available <a href="/sponsors">here</a>.
 			</dd>
 			<dt>What is this?</dt>
 			<dd>
@@ -43,6 +43,14 @@
 					target="_blank"
 					rel="noopener noreferrer">visit the CFP page</a
 				>. You can submit up to two talks, please be as thorough when describing it, as possible!
+			</dd>
+			<dt>Do you have a code of conduct?</dt>
+			<dd>
+				We sure do. And we expect everyone to abide by it. You can read it here: <a
+					href="https://sveltesociety.dev/about"
+					target="_blank"
+					rel="noopener noreferrer">Code of Conduct</a
+				>.
 			</dd>
 		</dl>
 	</div>

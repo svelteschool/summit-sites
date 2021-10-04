@@ -1,6 +1,6 @@
 <footer class="switcher">
 	<div class="column">Organised by Svelte School</div>
-	<div class="column">Design by @wolfr_2</div>
+	<div class="column">Design by <a href="https://twitter.com/wolfr_2">@wolfr_2</a></div>
 </footer>
 
 <style>

@@ -6,13 +6,13 @@
 </script>
 
 <section class="cover cover-light-bg" id="intro">
-	<img class="logo center" src={logo} alt="Svelte Society Presents" />
+	<img width="110" height="120" class="logo center" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
 		<span class="title">SVELTE <span class="highlight-text">SUMMIT FALL</span></span>
 		<small>
 			<time datetime="2021-11-20">NOV 20 2021</time>
 			<span class="subheading">THE 4TH VIRTUAL CONFERENCE ABOUT SVELTE</span>
-			<img class="leaves" src={leaves} alt="decorative fall leaves" />
+			<img width="178" height="140" class="leaves" src={leaves} alt="decorative fall leaves" />
 		</small>
 	</h1>
 	<div class="center"><EmailSignup /></div>
@@ -52,6 +52,7 @@
 	.title {
 		text-align: right;
 		word-spacing: 9999rem;
+		color: white;
 		font-size: 7rem;
 		line-height: 1;
 	}
@@ -65,6 +66,7 @@
 
 	time {
 		max-width: 8ch;
+		color: white;
 		font-size: 3.24rem;
 		line-height: 1;
 	}

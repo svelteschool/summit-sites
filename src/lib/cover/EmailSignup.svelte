@@ -89,4 +89,8 @@
 		font-size: 1rem;
 		font-weight: 600;
 	}
+
+	button {
+		color: black;
+	}
 </style>

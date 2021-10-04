@@ -123,7 +123,7 @@
 				can discuss those as well.
 			</p>
 			<ul class="perks">
-				<li>Everything in 🏆 Gold</li>
+				<li>Everything in 🥇 Gold</li>
 				<li>Largest size of logo on website and in slides between talks</li>
 				<li>
 					30 second promo/video during start, break and end of event. (you'll have to make it
@@ -134,7 +134,7 @@
 		</li>
 		<li class="box stack">
 			<div class="cluster">
-				<h3>🏆 Gold</h3>
+				<h3>🥇 Gold</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
 			<p>
@@ -143,7 +143,7 @@
 				separate videos that will be uploaded after the event on our YouTube channel
 			</p>
 			<ul class="perks">
-				<li>Everything in 📏 Silver</li>
+				<li>Everything in 🥈 Silver</li>
 				<li>Larger size of your logo on slides between talks</li>
 				<li>
 					Logo at the start of separate videos uploaded after the event on our YouTube channel.
@@ -152,7 +152,7 @@
 		</li>
 		<li class="box stack">
 			<div class="cluster">
-				<h3>📏 Silver</h3>
+				<h3>🥈 Silver</h3>
 				<span class="price primary-text">€<data value="1000">1000</data></span>
 			</div>
 			<p>
@@ -177,19 +177,31 @@
 		<a href="mailto:sponsors@sveltesummit.com"><strong>sponsors@sveltesummit.com</strong></a>
 		<ul class="center social">
 			<li>
-				<a href="https://twitter.com/sveltesociety" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://twitter.com/sveltesociety"
+					class="question-links"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					Twitter
 				</a>
 			</li>
 			<li>
-				<a href="https://sveltesociety.dev" target="_blank" rel="noopener noreferrer"> Website </a>
+				<a
+					href="https://sveltesociety.dev"
+					class="question-links"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Website
+				</a>
 			</li>
 			<li>
 				<a
 					href="https://youtube.com/sveltesociety"
+					class="question-links"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="with-icon"
 				>
 					YouTube
 				</a>
@@ -337,5 +349,12 @@
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
+	}
+
+	.question-links {
+		color: var(--primary-color);
+	}
+	.question-links:visited {
+		color: var(--primary-color);
 	}
 </style>
