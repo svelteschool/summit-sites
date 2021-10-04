@@ -174,7 +174,9 @@
 	<h2>Got questions?</h2>
 	<p>Send us a message. We're happy to discuss the options in more detail.</p>
 	<address class="stack primary-text">
-		<a href="mailto:sponsors@sveltesummit.com"><strong>sponsors@sveltesummit.com</strong></a>
+		<a href="mailto:sponsors@sveltesummit.com" class="question-links"
+			><strong>sponsors@sveltesummit.com</strong></a
+		>
 		<ul class="center social">
 			<li>
 				<a
