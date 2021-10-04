@@ -1,33 +1,39 @@
 <script lang="typescript">
 	import logo from './logo.svg';
 	import leaves from './leaves.svg';
+	import leaf from './leaf.svg';
 
 	import EmailSignup from './EmailSignup.svelte';
 </script>
 
+
 <section class="cover cover-light-bg" id="intro">
-	<img width="110" height="120" class="logo center" src={logo} alt="Svelte Society Presents" />
+	<img class="logo center" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
-		<span class="title">SVELTE <span class="highlight-text">SUMMIT FALL</span></span>
+		<span class="title">Svelte <span class="highlight-text">Fall<br><img class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span></span>
 		<small>
-			<time datetime="2021-11-20">NOV 20 2021</time>
-			<span class="subheading">THE 4TH VIRTUAL CONFERENCE ABOUT SVELTE</span>
-			<img width="178" height="140" class="leaves" src={leaves} alt="decorative fall leaves" />
+			<time datetime="2021-11-20">Nov 20 2021</time>
+			<span class="subheading">The 4th virtual conference about Svelte</span>
+			<img class="leaves" src={leaves} alt="decorative fall leaves" />
+			
 		</small>
 	</h1>
 	<div class="center"><EmailSignup /></div>
 </section>
 
 <style>
+
+	.cover {
+		position: relative;
+		background-image: url('/bg.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
 	section {
 		position: relative;
 		background: var(--primary-color);
-		background: linear-gradient(
-			45deg,
-			var(--cover-background-light) 35%,
-			var(--cover-background-dark) 35%,
-			var(--cover-background-dark) 100%
-		);
 		overflow: hidden;
 		margin: 0 calc(var(--space) * -1);
 		padding: 8rem 0.5rem 4rem 0.5rem;
@@ -36,6 +42,26 @@
 	.leaves {
 		height: 140px;
 	}
+	
+	.leaf {
+		display: none;
+	}
+
+	@media (min-width: 950px) {
+
+		.cover h1 {
+			transform: translate(7.5%, 0);
+		}
+
+		.leaf {
+			display: inline-block;
+			height: 69px;
+			margin-right: 33px;
+			transform: scale(1.5);
+		}
+
+	}
+
 
 	.logo {
 		max-height: 120px;
@@ -50,14 +76,16 @@
 	}
 
 	.title {
+		color: #FFF;
+		text-transform: uppercase;
 		text-align: right;
 		word-spacing: 9999rem;
-		color: white;
 		font-size: 7rem;
 		line-height: 1;
 	}
 
 	small {
+		text-transform: uppercase;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -65,8 +93,8 @@
 	}
 
 	time {
+		color: #FFF;
 		max-width: 8ch;
-		color: white;
 		font-size: 3.24rem;
 		line-height: 1;
 	}
@@ -80,6 +108,7 @@
 	}
 
 	@media (max-width: 600px) {
+
 		.heading {
 			grid-template-columns: 1fr;
 		}
@@ -102,5 +131,6 @@
 			max-width: 16ch;
 			font-size: clamp(12px, 10vw, 40px);
 		}
+
 	}
 </style>
