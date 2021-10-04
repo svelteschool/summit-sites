@@ -33,13 +33,12 @@
 	<hr />
 	<p>
 		On the 26th of April 2019 we held the first Svelte conference. It gathered over 1000 highly
-		enthustiastic developers from across the globe. Since then we've hosted and organised two more
-		events, each time the number of attendees grows by a lot.
+		enthusiastic developers from across the globe. Since then we've hosted and organised two more
+		events, each time the number of attendees grows by a lot. In contrast to most other events we
+		take pride in keeping it joyful and fun, much like how people feel when they decide to use
+		Svelte.
 	</p>
-	<p>
-		In contrast to most other events we take pride in keeping it joyful and fun, much like how
-		people feel when they decide to use Svelte.
-	</p>
+	<p>Below you'll find some stats on earlier events as well as our Social media accounts.</p>
 </section>
 
 <ul class="grid info-boxes">
@@ -64,6 +63,10 @@
 		<span class="desc">twitter followers</span>
 	</li>
 	<li class="card">
+		<span class="highlight-text">100<small>k</small>+</span>
+		<span class="highlight-text desc">YouTube views</span>
+	</li>
+	<li class="card">
 		<span class="primary-text">10<small>k</small></span>
 		<span class="primary-text desc">YouTube Subscribers</span>
 	</li>
@@ -77,12 +80,6 @@
 		as on a number of other platforms. Developers love Svelte. So much so that they quit their jobs
 		if they find a new one where they can use it. As you can see in the screenshots below, Svelte
 		topped the charts for most exciting and most loved framework in a couple of surveys this year.
-	</p>
-
-	<p>
-		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae nostrum quidem maxime atque
-		necessitatibus. Consectetur assumenda cumque odit quia optio deleniti, id aspernatur dolorum
-		voluptate exercitationem doloremque eligendi libero quod?
 	</p>
 
 	<p style="color: var(--highlight-color)">
@@ -120,46 +117,51 @@
 				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facere vel non alias
-				pariatur ratione quo aperiam, odit expedita distinctio architecto tempora quae eveniet
-				molestias quibusdam perspiciatis repudiandae, natus sint?
+				This is the package for companies that really want to show their love for Svelte and the
+				Svelte community. You'll get the largest size logo on the website and the possibility to
+				provide a 30 second promo video during the event. If you have any other interesting ideas we
+				can discuss those as well.
 			</p>
-			<ul>
-				<li>- Everything in GOLD</li>
-				<li>- 2</li>
-				<li>- 3</li>
+			<ul class="perks">
+				<li>Everything in 🏆 Gold</li>
+				<li>Largest size of logo on website and in slides between talks</li>
+				<li>
+					30 second promo/video during start, break and end of event. (you'll have to make it
+					yourself!)
+				</li>
+				<li>Other ideas, reach out to discuss</li>
 			</ul>
 		</li>
 		<li class="box stack">
 			<div class="cluster">
 				<h3>🏆 Gold</h3>
-				<span class="price primary-text">€<data value="2500">2500</data></span>
+				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facere vel non alias
-				pariatur ratione quo aperiam, odit expedita distinctio architecto tempora quae eveniet
-				molestias quibusdam perspiciatis repudiandae, natus sint?
+				You like Svelte a lot. And you want there to be more conferences. This is the package for
+				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
+				separate videos that will be uploaded after the event on our YouTube channel
 			</p>
-			<ul>
-				<li>- Everything in GOLD</li>
-				<li>- 2</li>
-				<li>- 3</li>
+			<ul class="perks">
+				<li>Everything in 📏 Silver</li>
+				<li>Larger size of your logo on slides between talks</li>
+				<li>
+					Logo at the start of separate videos uploaded after the event on our YouTube channel.
+				</li>
 			</ul>
 		</li>
 		<li class="box stack">
 			<div class="cluster">
 				<h3>📏 Silver</h3>
-				<span class="price primary-text">€<data value="900">900</data></span>
+				<span class="price primary-text">€<data value="1000">1000</data></span>
 			</div>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facere vel non alias
-				pariatur ratione quo aperiam, odit expedita distinctio architecto tempora quae eveniet
-				molestias quibusdam perspiciatis repudiandae, natus sint?
+				You're a smaller company that wants to show your support for Svelte. This is an excellent
+				opportunity to let developers know you're interested in Svelte.
 			</p>
-			<ul>
-				<li>- Everything in GOLD</li>
-				<li>- 2</li>
-				<li>- 3</li>
+			<ul class="perks">
+				<li>Logo on website</li>
+				<li>Logo shown at the start and end of the event</li>
 			</ul>
 		</li>
 	</ul>
@@ -174,56 +176,24 @@
 	<address class="stack primary-text">
 		<a href="mailto:sponsors@sveltesummit.com"><strong>sponsors@sveltesummit.com</strong></a>
 		<ul class="center social">
-			<a
-				href="https://twitter.com/sveltesociety"
-				target="_blank"
-				rel="noopener noreferrer"
-				role="listitem"
-			>
-				<svg
-					class="icon"
-					fill="var(--primary-color)"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
+			<li>
+				<a href="https://twitter.com/sveltesociety" target="_blank" rel="noopener noreferrer">
+					Twitter
+				</a>
+			</li>
+			<li>
+				<a href="https://sveltesociety.dev" target="_blank" rel="noopener noreferrer"> Website </a>
+			</li>
+			<li>
+				<a
+					href="https://youtube.com/sveltesociety"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="with-icon"
 				>
-					<path
-						d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-					/>
-				</svg>
-				Twitter
-			</a>
-			<a href="https://sveltesociety.dev" target="_blank" rel="noopener noreferrer" role="listitem">
-				<svg
-					class="icon"
-					fill="var(--primary-color)"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-					/>
-				</svg>
-				Website
-			</a>
-			<a
-				href="https://youtube.com/sveltesociety"
-				target="_blank"
-				rel="noopener noreferrer"
-				role="listitem"
-				class="with-icon"
-			>
-				<svg
-					class="icon"
-					fill="var(--primary-color)"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					<path
-						d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-					/>
-				</svg>
-				YouTube
-			</a>
+					YouTube
+				</a>
+			</li>
 		</ul>
 	</address>
 	<a class="primary-text" href="/"><strong>Code of Conduct</strong></a>
@@ -268,7 +238,7 @@
 		font-family: var(--font-heading);
 		line-height: 1.2;
 		text-align: center;
-		font-size: clamp(42px, 7vw, 80px);
+		font-size: clamp(42px, 7vw, 120px);
 		word-spacing: 9999px;
 	}
 
@@ -306,11 +276,16 @@
 	.box {
 		background: rgba(0, 0, 0, 0.5);
 		border-radius: 5px;
-		place-content: center;
+		place-content: start;
 	}
 
 	p {
 		max-width: 60ch;
+	}
+
+	.perks li {
+		list-style: initial;
+		margin-left: 1rem;
 	}
 
 	.statistics {

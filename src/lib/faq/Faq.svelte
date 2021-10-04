@@ -46,10 +46,16 @@
 			</dd>
 		</dl>
 	</div>
+</section>
+<section class="time">
 	<div class="stack center">
 		<h2>Timezones</h2>
 		<hr />
-		<div class="cluster timezones">
+		<p>
+			Once a set time has been announced we'll update this section with a bunch of different local
+			times.
+		</p>
+		<!-- <div class="cluster timezones">
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
@@ -69,7 +75,7 @@
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
 			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-		</div>
+		</div> -->
 	</div>
 </section>
 
@@ -79,7 +85,11 @@
 		display: flex;
 		flex-direction: column;
 		max-width: initial;
-		margin: calc(var(--space) * -1);
+		margin: 0 calc(var(--space) * -1);
+	}
+
+	.time {
+		padding-top: 0;
 	}
 
 	h2 {
