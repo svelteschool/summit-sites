@@ -6,6 +6,7 @@
 </script>
 
 <script>
+	import sveltekit from './_assets/sveltekitsatisfaction.png';
 	import satisfaction from './_assets/sveltesatisfaction.png';
 	import loved from './_assets/loved.png';
 </script>
@@ -87,6 +88,15 @@
 	</p>
 </section>
 <div class="grid statistics">
+	<a
+		href="https://jamstack.org/survey/2021/#choices-frameworksminor"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="stat stack box"
+	>
+		<img src={sveltekit} alt="Developer Satisfaction" />
+		<small>SvelteKit has the highest Satisfaction score of newcomer frameworks</small>
+	</a>
 	<a
 		href="https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/"
 		target="_blank"
@@ -321,7 +331,7 @@
 
 	.price {
 		font-weight: 600;
-		font-size: 1.5rem;
+		font-size: 2rem;
 	}
 
 	.questions {
