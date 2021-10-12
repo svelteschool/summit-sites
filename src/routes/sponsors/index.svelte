@@ -139,6 +139,7 @@
 					30 second promo/video during start, break and end of event. (you'll have to make it
 					yourself!)
 				</li>
+				<li>Above the fold (on desktop) logo in all our email blasts</li>
 				<li>Other ideas, reach out to discuss</li>
 			</ul>
 		</li>
@@ -158,6 +159,7 @@
 				<li>
 					Logo at the start of separate videos uploaded after the event on our YouTube channel.
 				</li>
+				<li>Announcement of sponsorship in an email to our subscribers.</li>
 			</ul>
 		</li>
 		<li class="box stack">
@@ -172,6 +174,7 @@
 			<ul class="perks">
 				<li>Logo on website</li>
 				<li>Logo shown at the start and end of the event</li>
+				<li>Social media tweet</li>
 			</ul>
 		</li>
 	</ul>

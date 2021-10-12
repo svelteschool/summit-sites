@@ -1,6 +1,7 @@
 <script>
 	// Sponsor images
 	import leveluptuts from './images/leveluptuts.svg';
+	import cloudflare from './images/cloudflare.svg';
 
 	// Gold sponsors
 	let gold = [
@@ -11,10 +12,10 @@
 			image: leveluptuts
 		},
 		{
-			url: '',
-			name: '',
-			desc: '',
-			image: ''
+			url: 'https://pages.cloudflare.com/ ',
+			name: 'Cloudflare Pages',
+			desc: 'Build lighting fast Jamstack sites with Cloudflare Pages',
+			image: cloudflare
 		},
 		{
 			url: '',
