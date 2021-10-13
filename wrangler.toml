@@ -9,3 +9,5 @@ target_type = "webpack"
 [site]
 bucket = "./build"
 entry-point = "workers-site"
+
+compatibility_date = "2021-10-13"
