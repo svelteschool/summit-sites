@@ -11,7 +11,7 @@ export const post: RequestHandler<Locals, FormData> = async (request) => {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({
-				api_key: '935aea23-c4b6-451a-a638-1fadc96a7420',
+				api_key: process.env['EMAIL_API_KEY'] || EMAIL_API_KEY,
 				email_address: request.body.get('email')
 			})
 		}
