@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Cover from '$lib/Cover/Cover.svelte';
+	import Cover from '$lib/test/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
 	import CTA from '$lib/CTA.svelte';
 	import OrganisedBy from '$lib/sponsors/OrganisedBy.svelte';
