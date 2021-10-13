@@ -11,6 +11,8 @@ jobs:
     name: Deploy
     steps:
       - uses: actions/checkout@master
+      - name: Install Packages
+        run: 'npm install'
       - name: Build site
         run: 'npm run build'
       - name: Publish
