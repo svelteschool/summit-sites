@@ -11,7 +11,7 @@ export const post: RequestHandler<Locals, FormData> = async (request) => {
 				'Content-Type': 'application/json'
 			},
 			body: JSON.stringify({
-				api_key: process.env['EMAIL_API_KEY'] || EMAIL_API_KEY,
+				api_key: import.meta.env.DEV ? process.env['EMAIL_API_KEY'] : EMAIL_API_KEY,
 				email_address: request.body.get('email')
 			})
 		}
