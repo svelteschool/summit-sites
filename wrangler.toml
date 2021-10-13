@@ -6,8 +6,7 @@ usage_model = ''
 route = 'https://sveltesummit.com/*'
 workers_dev = true
 target_type = "webpack"
+compatibility_date = "2021-10-13"
 [site]
 bucket = "./build"
 entry-point = "workers-site"
-
-compatibility_date = "2021-10-13"
