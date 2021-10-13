@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build site
-        run: 'npm run build'
+        run: 'env-cmd npm run build'
       - name: Publish
         uses: cloudflare/wrangler-action@1.3.0
         with:
