@@ -2,6 +2,7 @@
 	// Sponsor images
 	import leveluptuts from './images/leveluptuts.svg';
 	import cloudflare from './images/cloudflare.svg';
+	import svekyll from './images/svekyll.png';
 
 	// Gold sponsors
 	let gold = [
@@ -18,10 +19,10 @@
 			image: cloudflare
 		},
 		{
-			url: '',
-			name: '',
-			desc: '',
-			image: ''
+			url: 'https://svekyll.com',
+			name: 'Svekyll',
+			desc: 'Svekyll: the fastest and most powerful blog, hosted by ExtraStatic',
+			image: svekyll
 		}
 	];
 </script>
