@@ -1,8 +1,18 @@
 <script>
 	// Sponsor images
+	import graphcms from './images/graphcms.png';
 	import leveluptuts from './images/leveluptuts.svg';
 	import cloudflare from './images/cloudflare.svg';
 	import svekyll from './images/svekyll.png';
+
+	let platinum = [
+		{
+			url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
+			name: 'GraphCMS',
+			desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
+			image: graphcms
+		}
+	];
 
 	// Gold sponsors
 	let gold = [
@@ -19,7 +29,7 @@
 			image: cloudflare
 		},
 		{
-			url: 'https://svekyll.com',
+			url: 'https://svekyll.com/?mtm_campaign=Svelte%20Summit',
 			name: 'Svekyll',
 			desc: 'Svekyll: the fastest and most powerful blog, hosted by ExtraStatic',
 			image: svekyll
@@ -31,8 +41,21 @@
 	<h2>Sponsors</h2>
 	<hr />
 	<div class="golds">
-		<!-- <a href="/" class="platinum sponsor"><img src={svelteschool} alt="Svelte School Sponsor" /></a> -->
-		<a href="/sponsors" class="platinum sponsor">Platinum 💎</a>
+		{#each platinum as { url, name, desc, image }}
+			{#if name}
+				<a
+					href={url}
+					class="platinum sponsor"
+					rel="noopener noreferrer"
+					target="_blank"
+					data-tooltip={desc}
+				>
+					<img src={image} alt="{name} logo" />
+				</a>
+			{:else}
+				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
+			{/if}
+		{/each}
 	</div>
 	<div class="sponsors golds">
 		{#each gold as { url, name, desc, image }}
@@ -85,11 +108,11 @@
 	}
 
 	.platinum img {
-		max-width: 300px;
+		max-width: 450px;
 	}
 
 	.gold img {
-		max-width: 175px;
+		max-width: 150px;
 	}
 
 	.silver img {
