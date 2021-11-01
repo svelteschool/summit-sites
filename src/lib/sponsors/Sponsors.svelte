@@ -4,6 +4,7 @@
 	import leveluptuts from './images/leveluptuts.svg';
 	import cloudflare from './images/cloudflare.svg';
 	import svekyll from './images/svekyll.png';
+	import netlify from './images/netlify.svg';
 
 	let platinum = [
 		{
@@ -33,6 +34,12 @@
 			name: 'Svekyll',
 			desc: 'Svekyll: the fastest and most powerful blog, hosted by ExtraStatic',
 			image: svekyll
+		},
+		{
+			url: 'https://netlify.com',
+			name: 'Netlify',
+			desc: 'Netlify is the most popular way to build, deploy and scale modern web applications.',
+			image: netlify
 		}
 	];
 </script>
@@ -40,7 +47,7 @@
 <section class="stack" id="sponsors">
 	<h2>Sponsors</h2>
 	<hr />
-	<div class="golds">
+	<div class="platinums">
 		{#each platinum as { url, name, desc, image }}
 			{#if name}
 				<a
@@ -100,11 +107,19 @@
 		place-items: center;
 		background: black;
 		border-radius: 5px;
-		padding: 3rem;
+		padding: 1rem;
 	}
 
 	.sponsor img {
 		width: 100%;
+	}
+	
+	.platinum {
+		min-height:  250px;
+	}
+
+	.gold {
+		min-height:  150px;
 	}
 
 	.platinum img {
