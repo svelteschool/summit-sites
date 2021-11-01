@@ -5,11 +5,13 @@
 <section class="box stack container" {id}>
 	<h2>{title}</h2>
 	<p>{text}</p>
-	<div>
-		<a class="button highlight-bg" {href} target="_blank" rel="noopener noreferrer">
-			Send Proposal
-		</a>
-	</div>
+	{#if href}
+		<div>
+			<a class="button highlight-bg" {href} target="_blank" rel="noopener noreferrer">
+				Send Proposal
+			</a>
+		</div>
+	{/if}
 </section>
 
 <style>

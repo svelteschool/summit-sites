@@ -165,7 +165,7 @@
 		<li class="box stack">
 			<div class="cluster">
 				<h3>🥈 Silver</h3>
-				<span class="price primary-text">€<data value="1000">1000</data></span>
+				<span class="price primary-text">€<data value="500">500</data></span>
 			</div>
 			<p>
 				You're a smaller company that wants to show your support for Svelte. This is an excellent

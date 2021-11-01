@@ -8,8 +8,7 @@
 				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
 					>sponsors@sveltesummit.com</a
 				>
-				and tell us what you have in mind. We have three different levels of sponsorship: Platinum, Gold
-				and Silver. Our sponsor deck is available <a href="/sponsors">here</a>.
+				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our sponsor deck is available <a href="/sponsors">here</a>.
 			</dd>
 			<dt>What is this?</dt>
 			<dd>
@@ -38,11 +37,7 @@
 			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
 			<dd>
-				To submit a talk, please <a
-					href="https://sessionize.com/svelte-summit-fall-2021/"
-					target="_blank"
-					rel="noopener noreferrer">visit the CFP page</a
-				>. You can submit up to two talks, please be as thorough when describing it, as possible!
+				The time to submit talks has unfortunately closed. We look forward to your submissions next next year.
 			</dd>
 			<dt>Do you have a code of conduct?</dt>
 			<dd>

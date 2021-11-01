@@ -11,12 +11,11 @@
 </svelte:head>
 
 <Cover />
+<Sponsors />
 <CTA
-	title="We're looking for more speakers!"
-	text="We’re looking for people who want to speak about Svelte related topics during our virtual conference. Talks are pre-recorded beforehand and can either be 25 or 5-10 minutes long. Your talk must be about Svelte in some way."
-	href="https://sessionize.com/svelte-summit-fall-2021/"
+	title="Call for Submissions has closed!"
+	text="We're currently going through the submissions and will soon update the page with more information. Stay tuned."
 	id="speakers"
 />
-<Sponsors />
 <OrganisedBy />
 <Faq />
