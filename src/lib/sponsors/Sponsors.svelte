@@ -5,6 +5,7 @@
 	import cloudflare from './images/cloudflare.svg';
 	import svekyll from './images/svekyll.png';
 	import netlify from './images/netlify.svg';
+	import vercel from './images/vercel.svg';
 
 	let platinum = [
 		{
@@ -40,7 +41,14 @@
 			name: 'Netlify',
 			desc: 'Netlify is the most popular way to build, deploy and scale modern web applications.',
 			image: netlify
-		}
+		},
+		{
+			url: 'https://vercel.com',
+			name: 'Vercel',
+			desc: 'Vercel is the easiest way to deploy your Svelte apps.',
+			image: vercel
+		},
+		{}
 	];
 </script>
 
@@ -123,7 +131,7 @@
 	}
 
 	.platinum img {
-		max-width: 450px;
+		max-width: 350px;
 	}
 
 	.gold img {
