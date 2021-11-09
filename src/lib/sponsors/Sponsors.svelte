@@ -6,6 +6,7 @@
 	import svekyll from './images/svekyll.png';
 	import netlify from './images/netlify.svg';
 	import vercel from './images/vercel.svg';
+	import magic from './images/magic.svg';
 
 	let platinum = [
 		{
@@ -48,7 +49,12 @@
 			desc: 'Vercel is the easiest way to deploy your Svelte apps.',
 			image: vercel
 		},
-		{}
+		{
+			url: 'https://go.magic.link/svelte-summit',
+			name: 'Magic Labs, Inc.',
+			desc: 'The easiest way to add auth to your Svelte apps.',
+			image: magic
+		}
 	];
 </script>
 
