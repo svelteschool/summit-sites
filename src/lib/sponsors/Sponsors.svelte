@@ -52,7 +52,7 @@
 		{
 			url: 'https://go.magic.link/svelte-summit',
 			name: 'Magic Labs, Inc.',
-			desc: 'The easiest way to add auth to your Svelte apps.',
+			desc: 'Magic is the simplest way to add future-proof auth to your Svelte apps.',
 			image: magic
 		}
 	];
