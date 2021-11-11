@@ -7,6 +7,7 @@
 	import netlify from './images/netlify.svg';
 	import vercel from './images/vercel.svg';
 	import magic from './images/magic.svg';
+	import fauna from './images/fauna.svg';
 
 	let platinum = [
 		{
@@ -54,6 +55,12 @@
 			name: 'Magic Labs, Inc.',
 			desc: 'Magic is the simplest way to add future-proof auth to your Svelte apps.',
 			image: magic
+		},
+		{
+			url: 'https://fauna.com/?utm_source=svelte+summit+&utm_medium=website+&utm_campaign=Q4+2021&utm_id=events+',
+			name: 'Fauna',
+			desc: 'Fauna: The data API for modern applications.',
+			image: fauna
 		}
 	];
 </script>
