@@ -8,6 +8,7 @@
 	import vercel from './images/vercel.svg';
 	import magic from './images/magic.svg';
 	import fauna from './images/fauna.svg';
+	import wpengine from './images/wpengine.png';
 
 	let platinum = [
 		{
@@ -61,6 +62,12 @@
 			name: 'Fauna',
 			desc: 'Fauna: The data API for modern applications.',
 			image: fauna
+		},
+		{
+			url: 'https://wpengine.com/atlas/',
+			name: 'WPEngine',
+			desc: 'The complete headless WordPress platform for absurdly fast sites',
+			image: wpengine
 		}
 	];
 </script>
@@ -102,13 +109,13 @@
 			{/if}
 		{/each}
 	</div>
-	<div class="sponsors silvers">
-		<!-- <a href="/sponsors" class="silver sponsor"><img src={svelteschool} alt="Svelte School Sponsor" /></a> -->
+	<!-- <div class="sponsors silvers">
+		<a href="/sponsors" class="silver sponsor"><img src={svelteschool} alt="Svelte School Sponsor" /></a>
 		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
 		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
 		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
 		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
-	</div>
+	</div> -->
 	<h3><a href="/sponsors" class="button big highlight-bg">Become a sponsor</a></h3>
 </section>
 
