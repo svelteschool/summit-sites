@@ -160,8 +160,7 @@
 				},
 				{
 					name: "Stephanie Luz",
-					image: stephLuz,
-					twitter: "jimafisk"
+					image: stephLuz
 				},
 
 			],
