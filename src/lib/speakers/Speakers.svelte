@@ -188,7 +188,7 @@
 						<address rel="author">{speaker.name}
 							{#if speaker.twitter}
 								<a
-								href="https://twitter.com/{author.twitter}"
+								href="https://twitter.com/{speaker.twitter}"
 								target="_blank"
 								rel="noopener noreferrer"
 								class="twitter with-icon"
