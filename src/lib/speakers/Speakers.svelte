@@ -24,8 +24,8 @@
 							image: rich,
 							twitter: "rich_harris"
 			}],
-			title: "Secret Title 👀",
-			text: "Still a mystery! 🤫"
+			title: "Svelte Cubed",
+			text: "The other side of SvelteKit"
 		},
 		{
 			author: [{
