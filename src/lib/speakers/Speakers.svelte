@@ -139,7 +139,7 @@
 							image: kellen,
 							twitter: "kellenmace"
 			}],
-			title: "Bringing Svelte to 40% of the Web: Headless WordPress with Svelte",
+			title: "Bringing Svelte to 40% of the Web: Using Wordpress to Power Svelte",
 			text: "<p>WordPress is the world's most popular content management system, powering over 40% of all sites on the web– a staggering statistic.</p> <p>In this talk, we'll discuss how we can let content creators keep the excellent editorial workflows that WordPress provides, while leveraging Svelte on the frontend to provide a phenomenal user experience.</p>"
 		},		
 		{
