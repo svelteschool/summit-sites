@@ -247,9 +247,9 @@
 	}
 	.profile {
 		grid-area: profile;
-		display:  grid;
-		grid-template-columns: auto;
-		align-items: start;
+		display:  flex;
+		flex-direction: column;
+		gap: 1rem;
 	}
 	.text {
 		color: #D8ECEF;
