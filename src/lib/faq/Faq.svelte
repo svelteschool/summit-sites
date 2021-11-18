@@ -3,27 +3,20 @@
 		<h2 id="faq">FAQ</h2>
 		<hr />
 		<dl class="questions">
-			<dt>I want to sponsor the event!</dt>
+			<dt>How do I watch it?</dt>
 			<dd>
-				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
-					>sponsors@sveltesummit.com</a
-				>
-				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our sponsor deck is available <a href="/sponsors">here</a>.
+				Once the day arrives, tune in to the <a
+					href="https://www.youtube.com/watch?v=1Df-9EKvZr0"
+					target="_blank"
+					rel="noopener noreferrer">Svelte Society YouTube channel</a
+				> and start watching. We'll also make sure to post a notice at the top of this page if you forget
+				where to go.
 			</dd>
 			<dt>What is this?</dt>
 			<dd>
 				Svelte Summit is an event dedicated to Svelte and everything that is happening in the
 				community. You'll be able to tune in to a full day of talks and discussions all while
 				chatting to other Svelthusiasts on the Discord server.
-			</dd>
-			<dt>How do I watch it?</dt>
-			<dd>
-				Once the day arrives, tune in to the <a
-					href="https://youtube.com/sveltesociety"
-					target="_blank"
-					rel="noopener noreferrer">Svelte Society YouTube channel</a
-				> and start watching. We'll also make sure to post a notice at the top of this page if you forget
-				where to go.
 			</dd>
 			<dt>Will it be recorded?</dt>
 			<dd>
@@ -47,6 +40,13 @@
 					rel="noopener noreferrer">Code of Conduct</a
 				>.
 			</dd>
+			<dt>I want to sponsor the event!</dt>
+			<dd>
+				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
+					>sponsors@sveltesummit.com</a
+				>
+				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our sponsor deck is available <a href="/sponsors">here</a>.
+			</dd>
 		</dl>
 	</div>
 </section>
@@ -54,31 +54,16 @@
 	<div class="stack center">
 		<h2>Timezones</h2>
 		<hr />
-		<p>
-			Once a set time has been announced we'll update this section with a bunch of different local
-			times.
-		</p>
-		<!-- <div class="cluster timezones">
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-			<div class="zone">San Francisco (PDT)<br />6:00 am</div>
-		</div> -->
+		<div class="cluster timezones">
+			<div class="zone">London (GMT)<br />5:00 pm</div>
+			<div class="zone">Stockholm (CET)<br />6:00 pm</div>
+			<div class="zone">Berlin (CET)<br />6:00 pm</div>
+			<div class="zone">Moscow (GMT+3)<br />9:00 pm</div>
+			<div class="zone">Tokyo (GMT+9)<br />2:00 am</div>
+			<div class="zone">Sydney (AEDT)<br />5:00 am</div>
+			<div class="zone">San Francisco (PST)<br />9:00 am</div>
+			<div class="zone">New York (EST)<br />12:00 pm</div>
+		</div>
 	</div>
 </section>
 
@@ -104,6 +89,8 @@
 	}
 
 	.zone {
+		background: black;
+		border-radius: 5px;
 		padding: 8px 12px;
 		flex: 1 1 155px;
 	}
