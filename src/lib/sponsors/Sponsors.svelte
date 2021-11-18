@@ -109,14 +109,6 @@
 			{/if}
 		{/each}
 	</div>
-	<!-- <div class="sponsors silvers">
-		<a href="/sponsors" class="silver sponsor"><img src={svelteschool} alt="Svelte School Sponsor" /></a>
-		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
-		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
-		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
-		<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
-	</div> -->
-	<h3><a href="/sponsors" class="button big highlight-bg">Become a sponsor</a></h3>
 </section>
 
 <style>
