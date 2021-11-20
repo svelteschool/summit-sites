@@ -6,23 +6,41 @@
 	import EmailSignup from './EmailSignup.svelte';
 </script>
 
-
 <section class="cover cover-light-bg" id="intro">
 	<img class="logo center" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
-		<span class="title">Svelte <span class="highlight-text">Fall<br><img class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span></span>
+		<span class="title"
+			>Svelte <span class="highlight-text"
+				>Fall<br /><img class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span
+			></span
+		>
 		<small>
 			<time datetime="2021-11-20">Nov 20 2021</time>
 			<span class="subheading">The 4th virtual conference about Svelte</span>
 			<img class="leaves" src={leaves} alt="decorative fall leaves" />
-			
 		</small>
 	</h1>
+	<h2>Live Now</h2>
+	<iframe
+		width="600"
+		height="350"
+		src="https://www.youtube.com/embed/1Df-9EKvZr0"
+		title="YouTube video player"
+		frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+		allowfullscreen
+	/>
 	<div class="center"><EmailSignup /></div>
 </section>
 
 <style>
-
+	h2 {
+		text-align: center;
+	}
+	iframe {
+		margin: auto;
+		max-width: 94vw;
+	}
 	.cover {
 		position: relative;
 		background-image: url('/bg.png');
@@ -42,13 +60,12 @@
 	.leaves {
 		height: 140px;
 	}
-	
+
 	.leaf {
 		display: none;
 	}
 
 	@media (min-width: 950px) {
-
 		.cover h1 {
 			transform: translate(7.5%, 0);
 		}
@@ -59,9 +76,7 @@
 			margin-right: 33px;
 			transform: scale(1.5);
 		}
-
 	}
-
 
 	.logo {
 		max-height: 120px;
@@ -76,7 +91,7 @@
 	}
 
 	.title {
-		color: #FFF;
+		color: #fff;
 		text-transform: uppercase;
 		text-align: right;
 		word-spacing: 9999rem;
@@ -93,7 +108,7 @@
 	}
 
 	time {
-		color: #FFF;
+		color: #fff;
 		max-width: 8ch;
 		font-size: 3.24rem;
 		line-height: 1;
@@ -108,7 +123,6 @@
 	}
 
 	@media (max-width: 600px) {
-
 		.heading {
 			grid-template-columns: 1fr;
 		}
@@ -131,6 +145,5 @@
 			max-width: 16ch;
 			font-size: clamp(12px, 10vw, 40px);
 		}
-
 	}
 </style>
