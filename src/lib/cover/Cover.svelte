@@ -11,13 +11,13 @@
 	<h1 class="heading center">
 		<span class="title"
 			>Svelte <span class="highlight-text"
-				>Fall<br /><img class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span
+				>Fall<br /><img width="100" height="103" class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span
 			></span
 		>
 		<small>
 			<time datetime="2021-11-20">Nov 20 2021</time>
 			<span class="subheading">The 4th virtual conference about Svelte</span>
-			<img class="leaves" src={leaves} alt="decorative fall leaves" />
+			<img width="178" height="140" class="leaves" src={leaves} alt="decorative fall leaves" />
 		</small>
 	</h1>
 	<h2>
