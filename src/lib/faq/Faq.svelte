@@ -45,7 +45,7 @@
 				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
 					>sponsors@sveltesummit.com</a
 				>
-				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our sponsor deck is available <a href="/sponsors">here</a>.
+				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
 			</dd>
 		</dl>
 	</div>

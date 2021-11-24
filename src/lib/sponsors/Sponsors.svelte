@@ -84,6 +84,7 @@
 					rel="noopener noreferrer"
 					target="_blank"
 					data-tooltip={desc}
+					aria-label={name}
 				>
 					<img width="350" height="80" src={image} alt="{name} logo" />
 				</a>
