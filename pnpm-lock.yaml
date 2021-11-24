@@ -9,6 +9,7 @@ specifiers:
   '@sveltejs/adapter-cloudflare': ^1.0.0-next.2
   '@sveltejs/adapter-cloudflare-workers': next
   '@sveltejs/kit': next
+  '@svitejs/svelte-preprocess-svg': ^1.0.1
   '@types/cookie': ^0.4.1
   '@typescript-eslint/eslint-plugin': ^4.31.1
   '@typescript-eslint/parser': ^4.31.1
@@ -41,6 +42,7 @@ devDependencies:
   '@sveltejs/adapter-cloudflare': 1.0.0-next.2
   '@sveltejs/adapter-cloudflare-workers': 1.0.0-next.25
   '@sveltejs/kit': 1.0.0-next.199_svelte@3.44.0
+  '@svitejs/svelte-preprocess-svg': 1.0.1_svelte@3.44.0
   '@types/cookie': 0.4.1
   '@typescript-eslint/eslint-plugin': 4.33.0_cc617358c89d3f38c52462f6d809db4c
   '@typescript-eslint/parser': 4.33.0_eslint@7.32.0+typescript@4.4.4
@@ -225,6 +227,19 @@ packages:
       vite: 2.6.13
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@svitejs/svelte-preprocess-svg/1.0.1_svelte@3.44.0:
+    resolution: {integrity: sha512-x4JJCoZVMZd5iICM7RqJW14Is3Zga3Z+pkN5AfK2GxfuCJXwGT9D3EtKrv8957QUyEAd/uogIwKMLh0XcY/dBQ==}
+    engines: {node: ^14.13.1 || >= 16}
+    peerDependencies:
+      svelte: ^3.44.1
+      svgo: ^2.8.0
+    peerDependenciesMeta:
+      svgo:
+        optional: true
+    dependencies:
+      svelte: 3.44.0
     dev: true
 
   /@types/cookie/0.4.1:

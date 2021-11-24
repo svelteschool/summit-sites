@@ -149,20 +149,8 @@
 	.gold img {
 		max-width: 150px;
 	}
-
-	.silver img {
-		max-width: 125px;
-	}
 	.golds {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	}
-
-	.silvers {
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-	}
-
-	h3 {
-		margin-top: 2.5rem;
 	}
 
 	[data-tooltip] {

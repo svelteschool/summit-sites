@@ -33,10 +33,6 @@
 	a {
 		color:  white;
 	}
-	iframe {
-		margin: auto;
-		max-width: 94vw;
-	}
 	.cover {
 		position: relative;
 		background-image: url('/bg.png');
