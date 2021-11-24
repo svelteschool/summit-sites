@@ -1,7 +1,6 @@
 <script lang="typescript">
 	import logo from './logo.svg';
 	import leaves from './leaves.svg';
-	import leaf from './leaf.svg';
 
 	import EmailSignup from './EmailSignup.svelte';
 </script>
@@ -11,7 +10,7 @@
 	<h1 class="heading center">
 		<span class="title"
 			>Svelte <span class="highlight-text"
-				>Fall<br /><img width="100" height="103" class="leaf" src={leaf} alt="decorative fall leaves" />Summit</span
+				>Fall<br />Summit</span
 			></span
 		>
 		<small>
