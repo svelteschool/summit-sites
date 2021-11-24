@@ -32,7 +32,7 @@
 	}
 	a {
 		color:  white;
-	}
+	}	
 	.cover {
 		position: relative;
 		background-image: url('/bg.png');
