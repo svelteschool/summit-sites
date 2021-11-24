@@ -1,20 +1,20 @@
 <script>
-	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&webp&meta&srcset'
-	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&webp&meta&srcset'
-	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&webp&meta&srcset'
-	import Dominik from './photos/Dominik_G.png?w=100;200&webp&meta&srcset'
-	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&webp&meta&srcset'
-	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&webp&meta&srcset'
-	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&webp&meta&srcset'
-	import Jim from './photos/Jim_Fisk.jpg?w=100;200&webp&meta&srcset'
-	import kellen from './photos/Kellen_Mace.jpg?w=100;200&webp&meta&srcset'
-	import kenKunz from './photos/Ken_Kunz.jpg?w=100;200&webp&meta&srcset'
-	import kevin from './photos/Kevin_Bridges.jpg?w=100;200&webp&meta&srcset'
-	import mateo from './photos/Mateo_Morris.jpeg?w=100;200&webp&meta&srcset'
-	import scott from './photos/Scott_Tolinski.jpg?w=100;200&webp&meta&srcset'
-	import steph from './photos/Steph_Dietz.png?w=100;200&webp&meta&srcset'
-	import stephLuz from './photos/Stephanie_Luz.png?w=100;200&webp&meta&srcset'
-	import rich from './photos/Rich_Harris.jpeg?w=100;200&webp&meta&srcset'
+	import AustinCrim from './photos/Austin_Crim.jpg?w=100&webp&meta'
+	import BenHolmes from './photos/Ben_Holmes.jpg?w=100&webp&meta'
+	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100&webp&meta'
+	import Dominik from './photos/Dominik_G.png?w=100&webp&meta'
+	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100&webp&meta'
+	import Geoff from './photos/Geoff_Rich.jpg?w=100&webp&meta'
+	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100&webp&meta'
+	import Jim from './photos/Jim_Fisk.jpg?w=100&webp&meta'
+	import kellen from './photos/Kellen_Mace.jpg?w=100&webp&meta'
+	import kenKunz from './photos/Ken_Kunz.jpg?w=100&webp&meta'
+	import kevin from './photos/Kevin_Bridges.jpg?w=100&webp&meta'
+	import mateo from './photos/Mateo_Morris.jpeg?w=100&webp&meta'
+	import scott from './photos/Scott_Tolinski.jpg?w=100&webp&meta'
+	import steph from './photos/Steph_Dietz.png?w=100&webp&meta'
+	import stephLuz from './photos/Stephanie_Luz.png?w=100&webp&meta'
+	import rich from './photos/Rich_Harris.jpeg?w=100&webp&meta'
 
 	let talks = [
 		{
@@ -170,11 +170,7 @@
 				<article class="speaker">
 					<div class="profile">
 						{#each author as {image, name}}
-							{#if image.endsWith('svg')}
-								<img src={image} alt="Image of {name}" />
-							{:else}
-								<img srcset={image} type="image/webp" alt="Image of {name}" />
-							{/if}
+							<img width="100" height="100" src={image.src} alt="Image of {name}" />
 						{/each}
 					</div>
 					<div class="title">

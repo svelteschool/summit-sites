@@ -85,7 +85,7 @@
 					target="_blank"
 					data-tooltip={desc}
 				>
-					<img src={image} alt="{name} logo" />
+					<img width="350" height="80" src={image} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
@@ -102,7 +102,7 @@
 					target="_blank"
 					data-tooltip={desc}
 				>
-					<img src={image} alt="{name} logo" />
+					<img width="150" height="64" src={image} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>

@@ -9,7 +9,7 @@
 		href="https://svelte.school"
 		target="_blank"
 		rel="noopener noreferrer"
-		class="organiser sponsor"><img src={svelteschool} alt="Svelte School Sponsor" /></a
+		class="organiser sponsor"><img width="300" height="100" src={svelteschool} alt="Svelte School Sponsor" /></a
 	>
 </section>
 

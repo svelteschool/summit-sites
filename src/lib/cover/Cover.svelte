@@ -6,7 +6,7 @@
 </script>
 
 <section class="cover cover-light-bg" id="intro">
-	<img class="logo center" src={logo} alt="Svelte Society Presents" />
+	<img class="logo center" width="109" height="120" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
 		<span class="title"
 			>Svelte <span class="highlight-text"
