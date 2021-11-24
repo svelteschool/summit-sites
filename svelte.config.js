@@ -1,5 +1,6 @@
-import adapter from '@sveltejs/adapter-cloudflare-workers';
+import adapter from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess';
+import { imagetools } from 'vite-imagetools'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -10,8 +11,11 @@ const config = {
 	kit: {
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte',
-		adapter: adapter()
-	}
+		adapter: adapter(),
+		vite: {
+			plugins: [imagetools()]
+		}
+	},
 };
 
 export default config;

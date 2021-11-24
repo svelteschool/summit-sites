@@ -20,22 +20,18 @@
 			<img class="leaves" src={leaves} alt="decorative fall leaves" />
 		</small>
 	</h1>
-	<h2>Live Now</h2>
-	<iframe
-		width="600"
-		height="350"
-		src="https://www.youtube.com/embed/1Df-9EKvZr0"
-		title="YouTube video player"
-		frameborder="0"
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen
-	/>
+	<h2>
+		<a href="https://www.youtube.com/embed/1Df-9EKvZr0">Watch the event</a>
+	</h2>
 	<div class="center"><EmailSignup /></div>
 </section>
 
 <style>
 	h2 {
 		text-align: center;
+	}
+	a {
+		color:  white;
 	}
 	iframe {
 		margin: auto;

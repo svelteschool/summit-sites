@@ -1,21 +1,20 @@
 <script>
-	import AustinCrim from './photos/Austin_Crim.jpg'
-	import BenHolmes from './photos/Ben_Holmes.jpg'
-	import DeanFogarty from './photos/Dean_Fogarty.jpg'
-	import Dominik from './photos/Dominik_G.png'
-	import Evyatar from './photos/Evyatar_Alush.jpeg'
-	import Geoff from './photos/Geoff_Rich.jpg'
-	import JesseSkinner from './photos/Jesse_Skinner.jpg'
-	import Jim from './photos/Jim_Fisk.jpg'
-	import kellen from './photos/Kellen_Mace.jpg'
-	import kenKunz from './photos/Ken_Kunz.jpg'
-	import kevin from './photos/Kevin_Bridges.jpg'
-	import mateo from './photos/Mateo_Morris.jpeg'
-	import scott from './photos/Scott_Tolinski.jpg'
-	import steph from './photos/Steph_Dietz.png'
-	import stephLuz from './photos/Stephanie_Luz.png'
-	import rich from './photos/Rich_Harris.jpeg'
-	import mystery from './photos/mystery_speaker.svg'
+	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&webp&meta&srcset'
+	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&webp&meta&srcset'
+	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&webp&meta&srcset'
+	import Dominik from './photos/Dominik_G.png?w=100;200&webp&meta&srcset'
+	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&webp&meta&srcset'
+	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&webp&meta&srcset'
+	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&webp&meta&srcset'
+	import Jim from './photos/Jim_Fisk.jpg?w=100;200&webp&meta&srcset'
+	import kellen from './photos/Kellen_Mace.jpg?w=100;200&webp&meta&srcset'
+	import kenKunz from './photos/Ken_Kunz.jpg?w=100;200&webp&meta&srcset'
+	import kevin from './photos/Kevin_Bridges.jpg?w=100;200&webp&meta&srcset'
+	import mateo from './photos/Mateo_Morris.jpeg?w=100;200&webp&meta&srcset'
+	import scott from './photos/Scott_Tolinski.jpg?w=100;200&webp&meta&srcset'
+	import steph from './photos/Steph_Dietz.png?w=100;200&webp&meta&srcset'
+	import stephLuz from './photos/Stephanie_Luz.png?w=100;200&webp&meta&srcset'
+	import rich from './photos/Rich_Harris.jpeg?w=100;200&webp&meta&srcset'
 
 	let talks = [
 		{
@@ -44,15 +43,6 @@
 			}],
 			title: "From React to Svelte",
 			text: "We rewrote our entire platform on Svelte. In this talk, I'll cover the practical techniques, lessons learned and tips and tricks for anyone considering a move."
-		},	
-		{
-			author: [{
-							name: "Mystery Speaker",
-							image: mystery,
-							twitter: "sveltesociety"
-			}],
-			title: "Surprise Talk by Mystery Speaker",
-			text: "A mystery speaker will talk for a bit about some exciting things."
 		},	
 		{
 			author: [{
@@ -179,8 +169,12 @@
 			<li>
 				<article class="speaker">
 					<div class="profile">
-						{#each author as {image}}
-							<img src={image} alt="" />
+						{#each author as {image, name}}
+							{#if image.endsWith('svg')}
+								<img src={image} alt="Image of {name}" />
+							{:else}
+								<img srcset={image} type="image/webp" alt="Image of {name}" />
+							{/if}
 						{/each}
 					</div>
 					<div class="title">
@@ -223,11 +217,6 @@
 	.grid {
 		grid-gap: 50px;
 		--grid-width: 400px;
-	}
-	.stacks {
-		text-align: center;
-		width: 100%;
-		margin: 0 auto;
 	}
 	.center {
 		--max-width: 1180px;
