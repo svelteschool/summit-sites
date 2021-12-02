@@ -30,7 +30,8 @@
 			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
 			<dd>
-				The time to submit talks has unfortunately closed. We look forward to your submissions next next year.
+				The time to submit talks has unfortunately closed. We look forward to your submissions next
+				next year.
 			</dd>
 			<dt>Do you have a code of conduct?</dt>
 			<dd>
@@ -45,7 +46,8 @@
 				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
 					>sponsors@sveltesummit.com</a
 				>
-				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
+				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and
+				Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
 			</dd>
 		</dl>
 	</div>

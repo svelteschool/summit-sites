@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-cloudflare';
 import { sveltePreprocessSvg } from '@svitejs/svelte-preprocess-svg';
 import preprocess from 'svelte-preprocess';
-import { imagetools } from 'vite-imagetools'
+import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,7 +16,7 @@ const config = {
 		vite: {
 			plugins: [imagetools()]
 		}
-	},
+	}
 };
 
 export default config;

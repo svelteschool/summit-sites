@@ -134,13 +134,13 @@
 	.sponsor img {
 		width: 100%;
 	}
-	
+
 	.platinum {
-		min-height:  250px;
+		min-height: 250px;
 	}
 
 	.gold {
-		min-height:  150px;
+		min-height: 150px;
 	}
 
 	.platinum img {

@@ -8,11 +8,7 @@
 <section class="cover cover-light-bg" id="intro">
 	<img class="logo center" width="109" height="120" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
-		<span class="title"
-			>Svelte <span class="highlight-text"
-				>Fall<br />Summit</span
-			></span
-		>
+		<span class="title">Svelte <span class="highlight-text">Fall<br />Summit</span></span>
 		<small>
 			<time datetime="2021-11-20">Nov 20 2021</time>
 			<span class="subheading">The 4th virtual conference about Svelte</span>
@@ -30,8 +26,8 @@
 		text-align: center;
 	}
 	a {
-		color:  white;
-	}	
+		color: white;
+	}
 	.cover {
 		position: relative;
 		background-image: url('/bg.png');
@@ -52,20 +48,9 @@
 		height: 140px;
 	}
 
-	.leaf {
-		display: none;
-	}
-
 	@media (min-width: 950px) {
 		.cover h1 {
 			transform: translate(7.5%, 0);
-		}
-
-		.leaf {
-			display: inline-block;
-			height: 69px;
-			margin-right: 33px;
-			transform: scale(1.5);
 		}
 	}
 

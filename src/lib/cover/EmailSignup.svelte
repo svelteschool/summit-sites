@@ -3,7 +3,6 @@
 
 	let signedUp = false;
 	let error = false;
-	let pending = false;
 </script>
 
 {#if !signedUp}
@@ -15,12 +14,9 @@
 		use:enhance={{
 			pending: async () => {
 				error = false;
-				pending = true;
 			},
 			result: async (res, form) => {
-				const response = await res.json();
-
-				pending = false;
+				await res.json();
 				signedUp = true;
 				form.reset();
 			},
@@ -46,7 +42,7 @@
 		{/if}
 	</form>
 {:else}
-	<dialog class="background" open>Thanks for signing up. Please check your email.</dialog>
+	<div class="background" open>Thanks for signing up. Please check your email.</div>
 {/if}
 
 <style>
