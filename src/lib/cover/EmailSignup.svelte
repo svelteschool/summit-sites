@@ -42,7 +42,7 @@
 		{/if}
 	</form>
 {:else}
-	<div class="background" open>Thanks for signing up. Please check your email.</div>
+	<div class="background" role="dialog">Thanks for signing up. Please check your email.</div>
 {/if}
 
 <style>
@@ -76,14 +76,6 @@
 
 	.error {
 		border: 2px solid red;
-	}
-
-	dialog {
-		position: static;
-		gap: 1rem;
-		color: var(--text-color);
-		font-size: 1rem;
-		font-weight: 600;
 	}
 
 	button {

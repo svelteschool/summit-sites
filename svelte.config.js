@@ -14,7 +14,12 @@ const config = {
 		target: '#svelte',
 		adapter: adapter(),
 		vite: {
-			plugins: [imagetools()]
+			plugins: [imagetools()],
+			define: {
+				'process.env.EMAIL_API_KEY': JSON.stringify(
+					process.env['EMAIL_API_KEY'] || context.env['EMAIL_API_KEY']
+				)
+			}
 		}
 	}
 };
