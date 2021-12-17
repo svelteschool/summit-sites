@@ -1,4 +1,25 @@
+<script context="module">
+	/** @type {import('@sveltejs/kit').Load} */
+	export async function load({ fetch }) {
+		const urls = ['/sponsors.json', '/talks.json']
+	
+		const [sponsors, talks] = await Promise.all(urls.map(async url => {
+		  const resp = await fetch(url);
+		  return resp.json();
+		}));
+
+			return {
+				props: {
+					talks,
+					sponsors
+				}
+			};
+	}
+</script>
+
 <script lang="ts">
+	export let talks, sponsors;
+	
 	import Cover from '$lib/cover/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
 	import Speakers from '$lib/speakers/Speakers.svelte';
@@ -11,7 +32,7 @@
 </svelte:head>
 
 <Cover />
-<Sponsors />
-<Speakers />
+<Sponsors {sponsors} />
+<Speakers {talks} />
 <OrganisedBy />
 <Faq />

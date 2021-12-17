@@ -9,74 +9,28 @@
 	import magic from './images/magic.svg';
 	import fauna from './images/fauna.svg';
 	import wpengine from './images/wpengine.png?w=300&webp';
+	
+	const imageMap = new Map([
+		['graphcms', graphcms],
+		['leveluptuts', leveluptuts],
+		['cloudflare', cloudflare],
+		['svekyll', svekyll],
+		['netlify', netlify],
+		['vercel', vercel],
+		['magic', magic],
+		['fauna', fauna],
+		['wpengine', wpengine],
 
-	let platinum = [
-		{
-			url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
-			name: 'GraphCMS',
-			desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
-			image: graphcms
-		}
-	];
+	])
+	export let sponsors;
 
-	// Gold sponsors
-	let gold = [
-		{
-			url: 'https://leveluptutorials.com',
-			name: 'Level Up Tuts',
-			desc: 'Cutting-edge, focused & high quality video tutorials for web developers and designers',
-			image: leveluptuts
-		},
-		{
-			url: 'https://pages.cloudflare.com/ ',
-			name: 'Cloudflare Pages',
-			desc: 'Build lighting fast Jamstack sites with Cloudflare Pages',
-			image: cloudflare
-		},
-		{
-			url: 'https://svekyll.com/?mtm_campaign=Svelte%20Summit',
-			name: 'Svekyll',
-			desc: 'Svekyll: the fastest and most powerful blog, hosted by ExtraStatic',
-			image: svekyll
-		},
-		{
-			url: 'https://netlify.com',
-			name: 'Netlify',
-			desc: 'Netlify is the most popular way to build, deploy and scale modern web applications.',
-			image: netlify
-		},
-		{
-			url: 'https://vercel.com',
-			name: 'Vercel',
-			desc: 'Vercel is the easiest way to deploy your Svelte apps.',
-			image: vercel
-		},
-		{
-			url: 'https://go.magic.link/svelte-summit',
-			name: 'Magic Labs, Inc.',
-			desc: 'Magic is the simplest way to add future-proof auth to your Svelte apps.',
-			image: magic
-		},
-		{
-			url: 'https://fauna.com/?utm_source=svelte+summit+&utm_medium=website+&utm_campaign=Q4+2021&utm_id=events+',
-			name: 'Fauna',
-			desc: 'Fauna: The data API for modern applications.',
-			image: fauna
-		},
-		{
-			url: 'https://wpengine.com/atlas/',
-			name: 'WPEngine',
-			desc: 'The complete headless WordPress platform for absurdly fast sites',
-			image: wpengine
-		}
-	];
 </script>
 
 <section class="stack" id="sponsors">
 	<h2>Sponsors</h2>
 	<hr />
 	<div class="platinums">
-		{#each platinum as { url, name, desc, image }}
+		{#each sponsors.platinum as { url, name, desc, image }}
 			{#if name}
 				<a
 					href={url}
@@ -86,7 +40,7 @@
 					data-tooltip={desc}
 					aria-label={name}
 				>
-					<img width="350" height="80" src={image} alt="{name} logo" />
+					<img width="350" height="80" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
@@ -94,7 +48,7 @@
 		{/each}
 	</div>
 	<div class="sponsors golds">
-		{#each gold as { url, name, desc, image }}
+		{#each sponsors.gold as { url, name, desc, image }}
 			{#if name}
 				<a
 					href={url}
@@ -103,7 +57,7 @@
 					target="_blank"
 					data-tooltip={desc}
 				>
-					<img width="150" height="64" src={image} alt="{name} logo" />
+					<img width="150" height="64" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
