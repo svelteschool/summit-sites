@@ -3,6 +3,7 @@
 	font-family: 'Anton';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: local(''), url('/fonts/anton-v15-latin-regular-subset.woff2') format('woff2');
 	unicode-range: U+20, U+30-32, U+34, U+41-43, U+45, U+46, U+48, U+49, U+4C-4F, U+52-56;
 }
@@ -12,6 +13,7 @@
 	font-family: 'Overpass';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: local(''), url('/fonts/overpass-v7-latin-regular-subset.woff2') format('woff2');
 	unicode-range: U+20, U+25, U+27-29, U+2B-2D, U+30, U+34, U+3A, U+3F, U+41-44, U+46, U+47, U+49,
 		U+4D, U+4F-57, U+61-7A, U+1F48E, U+1F947, U+1F948;
@@ -21,6 +23,7 @@
 	font-family: 'Overpass';
 	font-style: normal;
 	font-weight: 600;
+	font-display: swap;
 	src: local(''), url('/fonts/overpass-v7-latin-600-subset.woff2') format('woff2');
 	unicode-range: U+20, U+25, U+27-29, U+2B-2D, U+30, U+34, U+3A, U+3F, U+41-44, U+46, U+47, U+49,
 		U+4D, U+4F-57, U+61-7A, U+1F48E, U+1F947, U+1F948;
@@ -31,6 +34,7 @@
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: local(''), url('/fonts/inter-v7-latin-regular-subset.woff2') format('woff2');
 	unicode-range: U+9, U+A, U+20, U+21, U+25-37, U+39, U+3A, U+3F-59, U+5F, U+61-7A, U+2013, U+20AC,
 		U+1F947, U+1F948;
@@ -40,6 +44,7 @@
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 600;
+	font-display: swap;
 	src: local(''), url('/fonts/inter-v7-latin-600-subset.woff2') format('woff2');
 	unicode-range: U+9, U+A, U+20, U+21, U+25-37, U+39, U+3A, U+3F-59, U+5F, U+61-7A, U+2013, U+20AC,
 		U+1F947, U+1F948;

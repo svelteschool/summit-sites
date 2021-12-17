@@ -59,6 +59,7 @@
 	}
 
 	.heading {
+		font-family: var(--font-leading);
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 1rem;
