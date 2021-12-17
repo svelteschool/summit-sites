@@ -1,14 +1,14 @@
 <script>
 	// Sponsor images
-	import graphcms from './images/graphcms.png';
+	import graphcms from './images/graphcms.png?w=700&webp';
 	import leveluptuts from './images/leveluptuts.svg';
 	import cloudflare from './images/cloudflare.svg';
-	import svekyll from './images/svekyll.png';
+	import svekyll from './images/svekyll.png?w=300&webp';
 	import netlify from './images/netlify.svg';
 	import vercel from './images/vercel.svg';
 	import magic from './images/magic.svg';
 	import fauna from './images/fauna.svg';
-	import wpengine from './images/wpengine.png';
+	import wpengine from './images/wpengine.png?w=300&webp';
 
 	let platinum = [
 		{

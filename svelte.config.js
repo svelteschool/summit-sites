@@ -2,6 +2,7 @@ import adapter from '@sveltejs/adapter-cloudflare';
 import { sveltePreprocessSvg } from '@svitejs/svelte-preprocess-svg';
 import preprocess from 'svelte-preprocess';
 import { imagetools } from 'vite-imagetools';
+import { hoistImportDeps } from 'rollup-plugin-hoist-import-deps';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
