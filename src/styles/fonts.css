@@ -1,0 +1,37 @@
+/* anton-regular - latin */
+@font-face {
+	font-family: 'Anton';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('/fonts/anton-v15-latin-regular.woff2') format('woff2');
+}
+
+/* overpass-regular - latin */
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('/fonts/overpass-v7-latin-regular.woff2') format('woff2');
+}
+/* overpass-600 - latin */
+@font-face {
+	font-family: 'Overpass';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''), url('/fonts/overpass-v7-latin-600.woff2') format('woff2');
+}
+
+/* inter-regular - latin */
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''), url('/fonts/inter-v7-latin-regular.woff2') format('woff2');
+}
+/* inter-600 - latin */
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''), url('/fonts/inter-v7-latin-600.woff2') format('woff2');
+}
