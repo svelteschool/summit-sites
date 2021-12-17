@@ -1,10 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@fontsource/anton': ^4.5.0
-  '@fontsource/fira-mono': ^4.5.0
-  '@fontsource/inter': ^4.5.0
-  '@fontsource/overpass': ^4.5.0
   '@lukeed/uuid': ^2.0.0
   '@sveltejs/adapter-cloudflare': ^1.0.0-next.2
   '@sveltejs/adapter-cloudflare-workers': next
@@ -30,10 +26,6 @@ specifiers:
   vite-imagetools: ^4.0.1
 
 dependencies:
-  '@fontsource/anton': 4.5.0
-  '@fontsource/fira-mono': 4.5.0
-  '@fontsource/inter': 4.5.0
-  '@fontsource/overpass': 4.5.0
   '@lukeed/uuid': 2.0.0
   cookie: 0.4.1
   env-cmd: 10.1.0
@@ -98,22 +90,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
-
-  /@fontsource/anton/4.5.0:
-    resolution: {integrity: sha512-wQT6QpWr3lwCItxx8NyfagxmjZsddKqjlTcqwjq08CCVgGmwYH0TdCtDkRBZr4lHoNJMZTVTVHI7UCQnclRpnQ==}
-    dev: false
-
-  /@fontsource/fira-mono/4.5.0:
-    resolution: {integrity: sha512-KE+d3wmgq/YKM0BqgUF7p2yeBNi805Nfof1lC1wJ7E9i2EWoC363sGdKG+MQBVm+ei3GYZu+Bo8Xha1w1pkB7g==}
-    dev: false
-
-  /@fontsource/inter/4.5.0:
-    resolution: {integrity: sha512-2efK8Ru0LkuOYrEpiHPlV02YkTdIKGbezlxVNeA8/3c+tNt7P2aQPuiYYkVy7N4GA5LWSUVcLL/91MpCIjinOw==}
-    dev: false
-
-  /@fontsource/overpass/4.5.0:
-    resolution: {integrity: sha512-UEf8emYYzXWsGXMON+Q3ovzAZDcLbRO+dYa0eS6FqEHVYvtJUiEfultXTOTKc4FauJ0zoktjZpAhKH49XI3tRg==}
-    dev: false
 
   /@humanwhocodes/config-array/0.5.0:
     resolution: {integrity: sha512-FagtKFz74XrTl7y6HCzQpwDfXP0yhxe9lHLD1UZxjvZIcbyRz8zTFF/yYNfSfzU414eDwZ1SrO0Qvtyf+wFMQg==}
@@ -2284,7 +2260,7 @@ packages:
       stylus:
         optional: true
     dependencies:
-      esbuild: 0.13.12
+      esbuild: 0.13.15
       postcss: 8.3.11
       resolve: 1.20.0
       rollup: 2.59.0
