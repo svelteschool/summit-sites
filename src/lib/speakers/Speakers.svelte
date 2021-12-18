@@ -1,38 +1,43 @@
 <script>
-	import AustinCrim from './photos/Austin_Crim.jpg?w=100&webp';
-	import BenHolmes from './photos/Ben_Holmes.jpg?w=100&webp';
-	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100&webp';
-	import Dominik from './photos/Dominik_G.png?w=100&webp';
-	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100&webp';
-	import Geoff from './photos/Geoff_Rich.jpg?w=100&webp';
-	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100&webp';
-	import Jim from './photos/Jim_Fisk.jpg?w=100&webp';
-	import Kellen from './photos/Kellen_Mace.jpg?w=100&webp';
-	import KenKunz from './photos/Ken_Kunz.jpg?w=100&webp';
-	import Kevin from './photos/Kevin_Bridges.jpg?w=100&webp';
-	import Mateo from './photos/Mateo_Morris.jpeg?w=100&webp';
-	import Scott from './photos/Scott_Tolinski.jpg?w=100&webp';
-	import Steph from './photos/Steph_Dietz.png?w=100&webp';
-	import StephLuz from './photos/Stephanie_Luz.png?w=100&webp';
-	import Rich from './photos/Rich_Harris.jpeg?w=100&webp';
+	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Dominik from './photos/Dominik_G.png?w=100;200&format=webp;avif;jpg&meta';
+	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&format=webp;avif;jpg&meta';
+	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Jim from './photos/Jim_Fisk.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Kellen from './photos/Kellen_Mace.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import KenKunz from './photos/Ken_Kunz.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Kevin from './photos/Kevin_Bridges.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Mateo from './photos/Mateo_Morris.jpeg?w=100;200&format=webp;avif;jpg&meta';
+	import Scott from './photos/Scott_Tolinski.jpg?w=100;200&format=webp;avif;jpg&meta';
+	import Steph from './photos/Steph_Dietz.png?w=100;200&format=webp;avif;jpg&meta';
+	import StephLuz from './photos/Stephanie_Luz.png?w=100;200&format=webp;avif;jpg&meta';
+	import Rich from './photos/Rich_Harris.jpeg?w=100;200&format=webp;avif;jpg&meta';
+	
+	const sortImage = (acc, img) => {
+		acc[img.format].push(img)
+		return acc;
+	}
 	
 	const imageMap = new Map([
-		['austin', AustinCrim],
-		['ben', BenHolmes],
-		['dean', DeanFogarty],
-		['dominik', Dominik],
-		['evyatar', Evyatar],
-		['geoff', Geoff],
-		['jesse', JesseSkinner],
-		['jim', Jim],
-		['kellen', Kellen],
-		['ken', KenKunz],
-		['kevin', Kevin],
-		['mateo', Mateo],
-		['scott', Scott],
-		['steph', Steph],
-		['stephLuz', StephLuz],
-		['rich', Rich],
+		['austin', AustinCrim.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['ben', BenHolmes.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['dean', DeanFogarty.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['dominik', Dominik.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['evyatar', Evyatar.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['geoff', Geoff.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['jesse', JesseSkinner.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['jim', Jim.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['kellen', Kellen.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['ken', KenKunz.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['kevin', Kevin.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['mateo', Mateo.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['scott', Scott.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['steph', Steph.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['stephLuz', StephLuz.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['rich', Rich.reduce(sortImage, { avif: [], webp: [], jpg: []})],
 	])
 	
 	export let talks;
@@ -47,7 +52,12 @@
 				<article class="speaker">
 					<div class="profile">
 						{#each author as { image, name }}
-							<img width="100" height="100" src={imageMap.get(image)} alt="Image of {name}" />
+							<picture>
+								{#each Object.values(imageMap.get(image)) as [first, second]}
+									<source srcset="{first.src} w{first.width}, {second.src}, w{second.width}" type="image/{first.format}" />
+								{/each}
+								<img width="100" height="100" src={imageMap.get(image).jpg[1].src} alt="Image of {name}" />
+							</picture>
 						{/each}
 					</div>
 					<div class="title">

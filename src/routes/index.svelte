@@ -1,6 +1,8 @@
 <script context="module">
+	export const hydrate = false;
+	export const router = false;
 	/** @type {import('@sveltejs/kit').Load} */
-	export async function load({ fetch }) {
+	export async function load({ page, fetch }) {
 		const urls = ['/sponsors.json', '/talks.json']
 	
 		const [sponsors, talks] = await Promise.all(urls.map(async url => {

@@ -23,7 +23,7 @@ export const post: RequestHandler<Locals, FormData> = async (request) => {
 		return {
 			status: 303,
 			headers: {
-				location: '/'
+				location: '/?signedup=true'
 			}
 		};
 	}

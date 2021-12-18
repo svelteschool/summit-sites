@@ -1,7 +1,7 @@
 <script>
 	import { enhance } from '$lib/form';
-
-	let signedUp = false;
+	import { page } from '$app/stores';
+	let signedUp = $page.query.get('signedup') || false
 	let error = false;
 </script>
 

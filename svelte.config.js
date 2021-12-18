@@ -20,6 +20,9 @@ const config = {
 				'process.env.EMAIL_API_KEY': JSON.stringify(
 					process.env['EMAIL_API_KEY'] || context.env['EMAIL_API_KEY']
 				)
+			},
+			build: {
+				assetsInlineLimit: 1
 			}
 		}
 	}
