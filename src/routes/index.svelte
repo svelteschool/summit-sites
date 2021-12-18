@@ -1,6 +1,4 @@
 <script context="module">
-	export const hydrate = false;
-	export const router = false;
 	/** @type {import('@sveltejs/kit').Load} */
 	export async function load({ page, fetch }) {
 		const urls = ['/sponsors.json', '/talks.json']

@@ -21,23 +21,25 @@
 		return acc;
 	}
 	
+	const imageStructure = () => ({ avif: [], webp: [], jpg: []})
+	
 	const imageMap = new Map([
-		['austin', AustinCrim.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['ben', BenHolmes.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['dean', DeanFogarty.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['dominik', Dominik.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['evyatar', Evyatar.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['geoff', Geoff.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['jesse', JesseSkinner.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['jim', Jim.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['kellen', Kellen.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['ken', KenKunz.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['kevin', Kevin.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['mateo', Mateo.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['scott', Scott.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['steph', Steph.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['stephLuz', StephLuz.reduce(sortImage, { avif: [], webp: [], jpg: []})],
-		['rich', Rich.reduce(sortImage, { avif: [], webp: [], jpg: []})],
+		['austin', AustinCrim.reduce(sortImage, imageStructure())],
+		['ben', BenHolmes.reduce(sortImage, imageStructure())],
+		['dean', DeanFogarty.reduce(sortImage, imageStructure())],
+		['dominik', Dominik.reduce(sortImage, imageStructure())],
+		['evyatar', Evyatar.reduce(sortImage, imageStructure())],
+		['geoff', Geoff.reduce(sortImage, imageStructure())],
+		['jesse', JesseSkinner.reduce(sortImage, imageStructure())],
+		['jim', Jim.reduce(sortImage, imageStructure())],
+		['kellen', Kellen.reduce(sortImage, imageStructure())],
+		['ken', KenKunz.reduce(sortImage, imageStructure())],
+		['kevin', Kevin.reduce(sortImage, imageStructure())],
+		['mateo', Mateo.reduce(sortImage, imageStructure())],
+		['scott', Scott.reduce(sortImage, imageStructure())],
+		['steph', Steph.reduce(sortImage, imageStructure())],
+		['stephLuz', StephLuz.reduce(sortImage, imageStructure())],
+		['rich', Rich.reduce(sortImage, imageStructure())],
 	])
 	
 	export let talks;
