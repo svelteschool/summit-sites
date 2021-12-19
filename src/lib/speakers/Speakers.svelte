@@ -58,7 +58,7 @@
 								{#each Object.values(imageMap.get(image)) as [first, second]}
 									<source srcset="{first.src} w{first.width}, {second.src}, w{second.width}" type="image/{first.format}" />
 								{/each}
-								<img width="100" height="100" src={imageMap.get(image).jpg[1].src} alt="Image of {name}" />
+								<img width="100" height="100" src={imageMap.get(image).jpg[1].src} loading="lazy" alt="Image of {name}" />
 							</picture>
 						{/each}
 					</div>
