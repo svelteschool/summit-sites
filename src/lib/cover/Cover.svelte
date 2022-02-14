@@ -9,7 +9,7 @@
 	<h1 class="heading center">
 		<span class="title">Svelte Summit<br /><span class="highlight-text">Spring</span></span>
 		<small>
-			<time datetime="2021-11-20">Apr. 30 2022</time>
+			<time datetime="2022-04-30">Apr. 30 2022</time>
 			<span class="subheading">The 5th virtual Svelte conference</span>
 		</small>
 	</h1>
