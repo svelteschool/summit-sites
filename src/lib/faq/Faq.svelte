@@ -6,7 +6,7 @@
 			<dt>How do I watch it?</dt>
 			<dd>
 				Once the day arrives, tune in to the <a
-					href="https://www.youtube.com/watch?v=1Df-9EKvZr0"
+					href="https://youtu.be/qqj2cBockqE"
 					target="_blank"
 					rel="noopener noreferrer">Svelte Society YouTube channel</a
 				> and start watching. We'll also make sure to post a notice at the top of this page if you forget
