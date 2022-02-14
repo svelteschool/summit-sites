@@ -20,7 +20,7 @@ const config = {
 			plugins: [imagetools()],
 			define: {
 				'process.env.EMAIL_API_KEY': JSON.stringify(
-					process.env['EMAIL_API_KEY']
+					process.env['EMAIL_API_KEY'] || context.env['EMAIL_API_KEY']
 				)
 			}
 		}
