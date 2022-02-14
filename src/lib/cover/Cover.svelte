@@ -14,7 +14,6 @@
 		</small>
 	</h1>
 	<div class="center">
-		<p class="intro">Sign up below 👇 to get updates.</p>
 		<EmailSignup />
 	</div>
 </section>
