@@ -9,7 +9,7 @@
 	<h1 class="heading center">
 		<span class="title">Svelte Summit<br /><span class="highlight-text">Spring</span></span>
 		<small>
-			<time datetime="2021-11-20">Apr. 20 2021</time>
+			<time datetime="2021-11-20">Apr. 30 2021</time>
 			<span class="subheading">The 5th virtual Svelte conference</span>
 		</small>
 	</h1>
@@ -25,12 +25,6 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: 40vh;
-	}
-
-	.intro {
-		max-width: 40ch;
-		text-align: center;
-		margin-bottom: 2rem;
 	}
 
 	section {
