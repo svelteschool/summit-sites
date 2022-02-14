@@ -18,14 +18,14 @@
 <section class="cover">
 	<h1 class="center">
 		<span class="meta highlight-text"
-			><time>November 20th, </time>
+			><time>April 20th, </time>
 			<address>Worldwide</address></span
 		><span class="primary-text title">Sponsorship Opportunities</span>
 	</h1>
 
 	<div class="contact center stack">
 		<p>The only Svelte focused conference on the planet.</p>
-		<a href="mailto:sponsors@sveltesummit.com" class="button highlight-bg">Contact us</a>
+		<a href="mailto:sponsors@sveltesummit.com" class="button primary-bg">Contact us</a>
 	</div>
 </section>
 
@@ -34,7 +34,7 @@
 	<hr />
 	<p>
 		On the 26th of April 2019 we held the first Svelte conference. It gathered over 1000 highly
-		enthusiastic developers from across the globe. Since then we've hosted and organised two more
+		enthusiastic developers from across the globe. Since then we've hosted and organised three more
 		events, each time the number of attendees grows by a lot. In contrast to most other events we
 		take pride in keeping it joyful and fun, much like how people feel when they decide to use
 		Svelte.
@@ -56,19 +56,19 @@
 		<span class="repeating-colors desc">countries reached</span>
 	</li>
 	<li class="card">
-		<span class="primary-text">17<small /></span>
+		<span class="primary-text">25<small />+</span>
 		<span class="primary-text desc">talks from around the world</span>
 	</li>
 	<li class="card" style="color: var(--twitter-blue);">
-		<span>11<small>k</small></span>
+		<span>14.3<small>k</small></span>
 		<span class="desc">twitter followers</span>
 	</li>
 	<li class="card">
-		<span class="highlight-text">100<small>k</small>+</span>
+		<span class="highlight-text">170<small>k</small>+</span>
 		<span class="highlight-text desc">YouTube views</span>
 	</li>
 	<li class="card">
-		<span class="primary-text">10<small>k</small></span>
+		<span class="primary-text">11<small>k</small></span>
 		<span class="primary-text desc">YouTube Subscribers</span>
 	</li>
 </ul>
@@ -126,19 +126,15 @@
 				<h3>💎 Platinum</h3>
 				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
+			<p><span class="sponsor-count">(3 of 3 left)</span></p>
 			<p>
 				This is the package for companies that really want to show their love for Svelte and the
-				Svelte community. You'll get the largest size logo on the website and the possibility to
-				provide a 30 second promo video during the event. If you have any other interesting ideas we
-				can discuss those as well.
+				Svelte community. You'll get the largest size logo on the website and an above the fold logo
+				in our email blasts. If you have any other interesting ideas we can discuss those as well.
 			</p>
 			<ul class="perks">
 				<li>Everything in 🥇 Gold</li>
 				<li>Largest size of logo on website and in slides between talks</li>
-				<li>
-					30 second promo/video during start, break and end of event. (you'll have to make it
-					yourself!)
-				</li>
 				<li>Above the fold (on desktop) logo in all our email blasts</li>
 				<li>Other ideas, reach out to discuss</li>
 			</ul>
@@ -148,6 +144,7 @@
 				<h3>🥇 Gold</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
+			<p><span class="sponsor-count">(6 of 6 left)</span></p>
 			<p>
 				You like Svelte a lot. And you want there to be more conferences. This is the package for
 				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
@@ -165,8 +162,9 @@
 		<li class="box stack">
 			<div class="cluster">
 				<h3>🥈 Silver</h3>
-				<span class="price primary-text">€<data value="500">500</data></span>
+				<span class="price primary-text">€<data value="1000">1000</data></span>
 			</div>
+			<p><span class="sponsor-count">(20 of 20 left)</span></p>
 			<p>
 				You're a smaller company that wants to show your support for Svelte. This is an excellent
 				opportunity to let developers know you're interested in Svelte.
@@ -178,12 +176,11 @@
 			</ul>
 		</li>
 	</ul>
-	<a href="mailto:sponsors@sveltesummit.com" class="button big highlight-bg"
-		>Sponsor the conference</a
+	<a href="mailto:sponsors@sveltesummit.com" class="button big primary-bg">Sponsor the conference</a
 	>
 </section>
 
-<section class="stack center highlight-bg questions">
+<section class="stack center questions">
 	<h2>Got questions?</h2>
 	<p>Send us a message. We're happy to discuss the options in more detail.</p>
 	<address class="stack primary-text">
@@ -228,7 +225,7 @@
 
 <style>
 	.cover {
-		background: rgba(0, 0, 0, 0.5);
+		background: var(--cover-background-dark);
 		margin: 0 calc(var(--space) * -1);
 	}
 
@@ -288,6 +285,11 @@
 		font-weight: 600;
 	}
 
+	.sponsor-count {
+		opacity: 0.5;
+		margin-left: 1rem;
+	}
+
 	.desc {
 		font-size: 1rem;
 		max-width: 140px;
@@ -338,22 +340,10 @@
 	}
 
 	.questions {
-		color: black;
+		background: var(--cover-background-dark);
+		color: white;
 		margin: 0 calc(var(--space) * -1);
 		max-width: initial;
-	}
-
-	.repeating-colors {
-		background: repeating-linear-gradient(
-			45deg,
-			var(--primary-color) 0,
-			var(--primary-color) 15%,
-			var(--highlight-color) 15%,
-			var(--highlight-color) 30%
-		);
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
 	}
 
 	address {
@@ -364,12 +354,5 @@
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
-	}
-
-	.question-links {
-		color: var(--primary-color);
-	}
-	.question-links:visited {
-		color: var(--primary-color);
 	}
 </style>

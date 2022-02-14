@@ -1,35 +1,37 @@
 <script>
 	// Sponsor images
-	import graphcms from './images/graphcms.png?w=700&webp';
-	import leveluptuts from './images/leveluptuts.svg';
-	import cloudflare from './images/cloudflare.svg';
-	import svekyll from './images/svekyll.png?w=300&webp';
-	import netlify from './images/netlify.svg';
-	import vercel from './images/vercel.svg';
-	import magic from './images/magic.svg';
-	import fauna from './images/fauna.svg';
-	import wpengine from './images/wpengine.png?w=300&webp';
-	
-	const imageMap = new Map([
-		['graphcms', graphcms],
-		['leveluptuts', leveluptuts],
-		['cloudflare', cloudflare],
-		['svekyll', svekyll],
-		['netlify', netlify],
-		['vercel', vercel],
-		['magic', magic],
-		['fauna', fauna],
-		['wpengine', wpengine],
+	// import graphcms from './images/graphcms.png?w=700&webp';
+	// import leveluptuts from './images/leveluptuts.svg';
+	// import cloudflare from './images/cloudflare.svg';
+	// import svekyll from './images/svekyll.png?w=300&webp';
+	// import netlify from './images/netlify.svg';
+	// import vercel from './images/vercel.svg';
+	// import magic from './images/magic.svg';
+	// import fauna from './images/fauna.svg';
+	// import wpengine from './images/wpengine.png?w=300&webp';
 
-	])
-	export let sponsors;
+	// const imageMap = new Map([
+	// 	['graphcms', graphcms],
+	// 	['leveluptuts', leveluptuts],
+	// 	['cloudflare', cloudflare],
+	// 	['svekyll', svekyll],
+	// 	['netlify', netlify],
+	// 	['vercel', vercel],
+	// 	['magic', magic],
+	// 	['fauna', fauna],
+	// 	['wpengine', wpengine],
 
+	// ])
+	export let sponsors = {
+		platinum: [0, 1, 2],
+		gold: [0, 1, 2, 3, 4, 5]
+	};
 </script>
 
 <section class="stack" id="sponsors">
 	<h2>Sponsors</h2>
 	<hr />
-	<div class="platinums">
+	<div class="sponsors platinums">
 		{#each sponsors.platinum as { url, name, desc, image }}
 			{#if name}
 				<a
@@ -43,7 +45,7 @@
 					<img width="350" height="80" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
-				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
+				<a href="/sponsors" class="platinum sponsor">Platinum 💎</a>
 			{/if}
 		{/each}
 	</div>
@@ -64,6 +66,7 @@
 			{/if}
 		{/each}
 	</div>
+	<h3><a href="/sponsors" class="button primary-bg">Become a sponsor</a></h3>
 </section>
 
 <style>
@@ -89,8 +92,12 @@
 		width: 100%;
 	}
 
+	.platinums {
+		grid-template-columns: 1fr;
+	}
+
 	.platinum {
-		min-height: 250px;
+		min-height: 200px;
 	}
 
 	.gold {

@@ -7,40 +7,40 @@
 <svelte:head>
 	<!-- Primary Meta Tags -->
 	<title>Svelte Summit Fall 2021: The 4th Svelte only conference</title>
-	<meta name="title" content="Svelte Summit Fall 2021: The 4th Svelte only conference" />
+	<meta content="Svelte Summit Fall 2021: The 4th Svelte only conference" name="title"/>
 	<meta
-		name="description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			name="description"
 	/>
 
 	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://sveltesummit.com/" />
-	<meta property="og:title" content="Svelte Summit Fall 2021: The 4th Svelte only conference" />
+	<meta content="website" property="og:type"/>
+	<meta content="https://sveltesummit.com/" property="og:url"/>
+	<meta content="Svelte Summit Fall 2021: The 4th Svelte only conference" property="og:title"/>
 	<meta
-		property="og:description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			property="og:description"
 	/>
-	<meta property="og:image" content="https://sveltesummit.com/metatagimg-fall.png" />
+	<meta content="https://sveltesummit.com/metatagimg-fall.png" property="og:image"/>
 
 	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://sveltesummit.com/" />
+	<meta content="summary_large_image" property="twitter:card"/>
+	<meta content="https://sveltesummit.com/" property="twitter:url"/>
 	<meta
-		property="twitter:title"
-		content="Svelte Summit Fall 2021: The 4th Svelte only conference"
+			content="Svelte Summit Fall 2021: The 4th Svelte only conference"
+			property="twitter:title"
 	/>
 	<meta
-		property="twitter:description"
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+			property="twitter:description"
 	/>
-	<meta property="twitter:image" content="https://sveltesummit.com/metatagimg-fall.png" />
+	<meta content="https://sveltesummit.com/metatagimg-fall.png" property="twitter:image"/>
 </svelte:head>
 
-<Header />
+<Header/>
 
 <main>
-	<slot />
+	<slot/>
 </main>
 
-<Footer />
+<Footer/>

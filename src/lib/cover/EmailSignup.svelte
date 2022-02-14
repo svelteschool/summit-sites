@@ -1,7 +1,7 @@
 <script>
 	import { enhance } from '$lib/form';
 	import { page } from '$app/stores';
-	let signedUp = $page.query.get('signedup') || false
+	let signedUp = $page.query.get('signedup') || false;
 	let error = false;
 </script>
 
@@ -35,7 +35,7 @@
 				type="email"
 				placeholder="Your e-mail address..."
 			/>
-			<button class="highlight-bg">Sign up to the mailing list</button>
+			<button class="primary-bg">Sign up</button>
 		</div>
 		{#if error}
 			<span class="error-message">{error}</span>

@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-cloudflare';
 import { sveltePreprocessSvg } from '@svitejs/svelte-preprocess-svg';
 import preprocess from 'svelte-preprocess';
 import { imagetools } from 'vite-imagetools';
-import { hoistImportDeps } from 'rollup-plugin-hoist-import-deps';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,8 +10,6 @@ const config = {
 	preprocess: [preprocess(), sveltePreprocessSvg()],
 
 	kit: {
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte',
 		adapter: adapter(),
 		vite: {
 			plugins: [imagetools()],

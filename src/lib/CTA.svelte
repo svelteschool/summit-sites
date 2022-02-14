@@ -7,7 +7,7 @@
 	<p>{text}</p>
 	{#if href}
 		<div>
-			<a class="button highlight-bg" {href} target="_blank" rel="noopener noreferrer">
+			<a class="button primary-bg" {href} target="_blank" rel="noopener noreferrer">
 				Send Proposal
 			</a>
 		</div>
