@@ -9,7 +9,7 @@
 	<title>Svelte Summit Spring 2022: The 5th Svelte only conference</title>
 	<meta content="Svelte Summit Spring 2022: The 5th Svelte only conference" name="title" />
 	<meta
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 30th 2022."
 		name="description"
 	/>
 
@@ -18,7 +18,7 @@
 	<meta content="https://sveltesummit.com/" property="og:url" />
 	<meta content="Svelte Summit Spring 2022: The 5th Svelte only conference" property="og:title" />
 	<meta
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 30th 2022."
 		property="og:description"
 	/>
 	<meta content="https://sveltesummit.com/metatagimg-fall.png" property="og:image" />
@@ -31,7 +31,7 @@
 		property="twitter:title"
 	/>
 	<meta
-		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on November 20th 2021."
+		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 30th 2022."
 		property="twitter:description"
 	/>
 	<meta content="https://sveltesummit.com/metatagimg-fall.png" property="twitter:image" />

@@ -20,12 +20,6 @@
 </section>
 
 <style>
-	h2 {
-		text-align: center;
-	}
-	a {
-		color: white;
-	}
 	.cover {
 		position: relative;
 		background-image: url('/bg.svg');
@@ -46,10 +40,6 @@
 		overflow: hidden;
 		margin: 0 calc(var(--space) * -1);
 		padding: 8rem 0.5rem 4rem 0.5rem;
-	}
-
-	.leaves {
-		height: 140px;
 	}
 
 	@media (min-width: 950px) {
