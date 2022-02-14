@@ -1,32 +1,12 @@
 <script>
-	import { enhance } from '$lib/form';
 	import { page } from '$app/stores';
-	let signedUp = $page.query.get('signedup') || false;
+	let signedUp = $page.url.searchParams.get('signedup') || false;
+	console.log($page.url.searchParams.get('signedup'));
 	let error = false;
 </script>
 
 {#if !signedUp}
-	<form
-		class="background"
-		id="signup"
-		action="/subscribe"
-		method="post"
-		use:enhance={{
-			pending: async () => {
-				error = false;
-			},
-			result: async (res, form) => {
-				await res.json();
-				signedUp = true;
-				form.reset();
-			},
-			error: async (res) => {
-				const response = await res.json();
-
-				error = response.error.message;
-			}
-		}}
-	>
+	<form class="background" id="signup" action="/subscribe" method="post">
 		<div class="container">
 			<input
 				required

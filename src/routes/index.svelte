@@ -1,9 +1,9 @@
-<script context="module">
+<!-- <script context="module">
 	export const hydrate = false;
 	export const router = false;
 
 	/** @type {import('@sveltejs/kit').Load} */
-	export async function load({ page, fetch }) {
+	export async function load({ fetch }) {
 		const urls = ['/sponsors.json', '/talks.json'];
 
 		const [sponsors, talks] = await Promise.all(
@@ -20,10 +20,9 @@
 			}
 		};
 	}
-</script>
-
+</script> -->
 <script lang="ts">
-	export let talks, sponsors;
+	// export let talks, sponsors;
 
 	import Cover from '$lib/cover/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';

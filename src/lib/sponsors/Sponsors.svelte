@@ -23,8 +23,8 @@
 
 	// ])
 	export let sponsors = {
-		platinum: [0, 1, 2],
-		gold: [0, 1, 2, 3, 4, 5]
+		platinum: [0, 1],
+		gold: [0, 1, 2]
 	};
 </script>
 
