@@ -1,28 +1,28 @@
 <script>
-	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Dominik from './photos/Dominik_G.png?w=100;200&format=webp;avif;jpg&meta';
-	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&format=webp;avif;jpg&meta';
-	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Jim from './photos/Jim_Fisk.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Kellen from './photos/Kellen_Mace.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import KenKunz from './photos/Ken_Kunz.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Kevin from './photos/Kevin_Bridges.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Mateo from './photos/Mateo_Morris.jpeg?w=100;200&format=webp;avif;jpg&meta';
-	import Scott from './photos/Scott_Tolinski.jpg?w=100;200&format=webp;avif;jpg&meta';
-	import Steph from './photos/Steph_Dietz.png?w=100;200&format=webp;avif;jpg&meta';
-	import StephLuz from './photos/Stephanie_Luz.png?w=100;200&format=webp;avif;jpg&meta';
-	import Rich from './photos/Rich_Harris.jpeg?w=100;200&format=webp;avif;jpg&meta';
-	
+	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Dominik from './photos/Dominik_G.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Jim from './photos/Jim_Fisk.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Kellen from './photos/Kellen_Mace.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import KenKunz from './photos/Ken_Kunz.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Kevin from './photos/Kevin_Bridges.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Mateo from './photos/Mateo_Morris.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Scott from './photos/Scott_Tolinski.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Steph from './photos/Steph_Dietz.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import StephLuz from './photos/Stephanie_Luz.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+	import Rich from './photos/Rich_Harris.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
+
 	const sortImage = (acc, img) => {
-		acc[img.format].push(img)
+		acc[img.format].push(img);
 		return acc;
-	}
-	
-	const imageStructure = () => ({ avif: [], webp: [], jpg: []})
-	
+	};
+
+	const imageStructure = () => ({ avif: [], jpeg: [], webp: [], jpg: [] });
+
 	const imageMap = new Map([
 		['austin', AustinCrim.reduce(sortImage, imageStructure())],
 		['ben', BenHolmes.reduce(sortImage, imageStructure())],
@@ -39,9 +39,9 @@
 		['scott', Scott.reduce(sortImage, imageStructure())],
 		['steph', Steph.reduce(sortImage, imageStructure())],
 		['stephLuz', StephLuz.reduce(sortImage, imageStructure())],
-		['rich', Rich.reduce(sortImage, imageStructure())],
-	])
-	
+		['rich', Rich.reduce(sortImage, imageStructure())]
+	]);
+
 	export let talks;
 </script>
 
@@ -56,9 +56,18 @@
 						{#each author as { image, name }}
 							<picture>
 								{#each Object.values(imageMap.get(image)) as [first, second]}
-									<source srcset="{first.src} w{first.width}, {second.src}, w{second.width}" type="image/{first.format}" />
+									<source
+										srcset="{first.src} w{first.width}, {second.src}, w{second.width}"
+										type="image/{first.format}"
+									/>
 								{/each}
-								<img width="100" height="100" src={imageMap.get(image).jpg[1].src} loading="lazy" alt="Image of {name}" />
+								<img
+									width="100"
+									height="100"
+									src={imageMap.get(image).jpg[1].src}
+									loading="lazy"
+									alt="Image of {name}"
+								/>
 							</picture>
 						{/each}
 					</div>

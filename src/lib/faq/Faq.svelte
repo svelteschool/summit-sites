@@ -36,7 +36,7 @@
 			<dt>Do you have a code of conduct?</dt>
 			<dd>
 				We sure do. And we expect everyone to abide by it. You can read it here: <a
-					href="https://sveltesociety.dev/about"
+					href="https://github.com/sveltejs/community/blob/main/CODE_OF_CONDUCT.md"
 					target="_blank"
 					rel="noopener noreferrer">Code of Conduct</a
 				>.

@@ -1,24 +1,22 @@
 <script lang="typescript">
 	import logo from './logo.svg';
-	import leaves from './leaves.svg';
 
 	import EmailSignup from './EmailSignup.svelte';
 </script>
 
-<section class="cover cover-light-bg" id="intro">
+<section class="cover" id="intro">
 	<img class="logo center" width="109" height="120" src={logo} alt="Svelte Society Presents" />
 	<h1 class="heading center">
-		<span class="title">Svelte <span class="highlight-text">Fall<br />Summit</span></span>
+		<span class="title">Svelte Summit<br /><span class="highlight-text">Spring</span></span>
 		<small>
-			<time datetime="2021-11-20">Nov 20 2021</time>
-			<span class="subheading">The 4th virtual conference about Svelte</span>
-			<img width="178" height="140" class="leaves" src={leaves} alt="decorative fall leaves" />
+			<time datetime="2021-11-20">Apr. 20 2021</time>
+			<span class="subheading">The 5th virtual Svelte conference</span>
 		</small>
 	</h1>
-	<h2>
-		<a href="https://www.youtube.com/embed/1Df-9EKvZr0">Watch the event</a>
-	</h2>
-	<div class="center"><EmailSignup /></div>
+	<div class="center">
+		<p class="intro">Sign up below 👇 to get updates.</p>
+		<EmailSignup />
+	</div>
 </section>
 
 <style>
@@ -30,15 +28,21 @@
 	}
 	.cover {
 		position: relative;
-		background-image: url('/bg.png');
+		background-image: url('/bg.svg');
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: cover;
+		background-size: 40vh;
+	}
+
+	.intro {
+		max-width: 40ch;
+		text-align: center;
+		margin-bottom: 2rem;
 	}
 
 	section {
 		position: relative;
-		background: var(--primary-color);
+		background: var(--cover-background-dark);
 		overflow: hidden;
 		margin: 0 calc(var(--space) * -1);
 		padding: 8rem 0.5rem 4rem 0.5rem;
@@ -92,11 +96,11 @@
 	}
 
 	.subheading {
-		max-width: 16ch;
-		font-size: 2rem;
+		max-width: 13ch;
+		font-size: 3.24rem;
 		line-height: 1.05;
 		margin-top: 9px;
-		color: #ffdf98;
+		color: #ff7de2;
 	}
 
 	@media (max-width: 600px) {

@@ -1,32 +1,11 @@
 <script>
-	import { enhance } from '$lib/form';
 	import { page } from '$app/stores';
-	let signedUp = $page.query.get('signedup') || false
+	let signedUp = $page.url.searchParams.get('signedup') || false;
 	let error = false;
 </script>
 
 {#if !signedUp}
-	<form
-		class="background"
-		id="signup"
-		action="/subscribe"
-		method="post"
-		use:enhance={{
-			pending: async () => {
-				error = false;
-			},
-			result: async (res, form) => {
-				await res.json();
-				signedUp = true;
-				form.reset();
-			},
-			error: async (res) => {
-				const response = await res.json();
-
-				error = response.error.message;
-			}
-		}}
-	>
+	<form class="background" id="signup" action="/subscribe" method="post">
 		<div class="container">
 			<input
 				required
@@ -35,7 +14,7 @@
 				type="email"
 				placeholder="Your e-mail address..."
 			/>
-			<button class="highlight-bg">Sign up to the mailing list</button>
+			<button class="primary-bg">Sign up</button>
 		</div>
 		{#if error}
 			<span class="error-message">{error}</span>
