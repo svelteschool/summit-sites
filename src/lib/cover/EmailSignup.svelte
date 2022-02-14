@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 	let signedUp = $page.url.searchParams.get('signedup') || false;
-	console.log($page.url.searchParams.get('signedup'));
 	let error = false;
 </script>
 
