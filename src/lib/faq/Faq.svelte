@@ -30,8 +30,11 @@
 			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
 			<dd>
-				The time to submit talks has unfortunately closed. We look forward to your submissions next
-				next year.
+				You can submit one <a
+					href="https://sessionize.com/svelte-summit-spring-2022/"
+					target="_blank"
+					rel="noopener noreferrer">here</a
+				>.
 			</dd>
 			<dt>Do you have a code of conduct?</dt>
 			<dd>
