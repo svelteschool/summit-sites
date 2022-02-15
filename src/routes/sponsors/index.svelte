@@ -9,13 +9,13 @@
 </script>
 
 <svelte:head>
-	<title>Svelte Summit Fall 2021 - Sponsors</title>
+	<title>Svelte Summit Spring 2022 - Sponsors</title>
 </svelte:head>
 
 <section class="cover">
 	<h1 class="center">
 		<span class="meta highlight-text"
-			><time>April 20th, </time>
+			><time>April 30th, </time>
 			<address>Worldwide</address></span
 		><span class="primary-text title">Sponsorship Opportunities</span>
 	</h1>
