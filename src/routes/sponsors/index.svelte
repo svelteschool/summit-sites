@@ -172,6 +172,29 @@
 				<li>Social media tweet</li>
 			</ul>
 		</li>
+		<li class="box stack" style="grid-column: 1 / -1">
+			<div class="cluster">
+				<h3>📦 Meetball Sponsor</h3>
+				<span class="price primary-text">€<data value="4000">4000</data></span>
+			</div>
+			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p>
+				This Svelte Summit we're bringing back <a
+					class="sponsor-text-link"
+					target="_blank"
+					rel="noopener noreferrer nofollow"
+					href="https://meetball.live">Meetball</a
+				>. It's an awesome 1-on-1 meeting platform that lets attendees to get to know each other
+				(and the speakers). By sponsoring this you'll be able to have your company visible during
+				the meet and greets as well as the opportunity to host. You'll share a few words with
+				everyone about your company before they head into the 1-on-1s.
+			</p>
+			<ul class="perks">
+				<li>Present the Meetball session</li>
+				<li>Logo on the Meetball meeting website</li>
+				<li>The ability to join and chat with attendees about Svelte (or other things)</li>
+			</ul>
+		</li>
 	</ul>
 	<a href="mailto:sponsors@sveltesummit.com" class="button big primary-bg">Sponsor the conference</a
 	>
@@ -236,6 +259,10 @@
 	h3 {
 		font-weight: bold;
 		font-size: 2rem;
+	}
+
+	.sponsor-text-link {
+		border-bottom: 2px solid var(--primary-color);
 	}
 
 	.info-boxes {
