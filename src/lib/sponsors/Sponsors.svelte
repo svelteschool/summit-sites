@@ -23,8 +23,9 @@
 
 	// ])
 	export let sponsors = {
-		platinum: [0, 1],
-		gold: [0, 1, 2]
+		platinum: Array.from(Array(3).keys()),
+		gold: Array.from(Array(6).keys()),
+		silver: Array.from(Array(10).keys())
 	};
 </script>
 
@@ -66,6 +67,23 @@
 			{/if}
 		{/each}
 	</div>
+	<div class="sponsors silvers">
+		{#each sponsors.silver as { url, name, desc, image }}
+			{#if name}
+				<a
+					href={url}
+					class="silver sponsor"
+					rel="noopener noreferrer"
+					target="_blank"
+					data-tooltip={desc}
+				>
+					<img width="150" height="64" src={imageMap.get(image)} alt="{name} logo" />
+				</a>
+			{:else}
+				<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
+			{/if}
+		{/each}
+	</div>
 	<h3><a href="/sponsors" class="button primary-bg">Become a sponsor</a></h3>
 </section>
 
@@ -104,6 +122,10 @@
 		min-height: 150px;
 	}
 
+	.silver {
+		min-height: 100px;
+	}
+
 	.platinum img {
 		max-width: 350px;
 	}
@@ -113,6 +135,22 @@
 	}
 	.golds {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	}
+	.silvers {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+
+	@media screen and (max-width: 600px) {
+		.golds {
+			grid-template-columns: 1fr 1fr;
+		}
+		.silvers {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
+
+		.sponsors {
+			gap: 10px;
+		}
 	}
 
 	[data-tooltip] {
