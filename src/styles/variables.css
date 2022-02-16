@@ -31,6 +31,12 @@
 	--max-width: 900px;
 }
 
+@media screen and (max-width: 992px) {
+	:root {
+		--space: 0.75rem;
+	}
+}
+
 @supports (color: color(display-p3 1 1 1)) {
 	:root {
 		--primary-color: color(display-p3 1 0 0.78);
