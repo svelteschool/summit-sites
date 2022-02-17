@@ -175,7 +175,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>📦 Conference Break Sponsor</h3>
-				<span class="price primary-text">€<data value="4000">4000</data></span>
+				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
 			<p><span class="sponsor-count">(1 of 1 left)</span></p>
 			<p>
@@ -195,7 +195,6 @@
 					Extra shout out (on stream) before and after the break to highlight the Meetball session
 				</li>
 				<li>Logo on the Meetball meeting website</li>
-				<li>The ability to join and chat with attendees about Svelte (or other things)</li>
 			</ul>
 		</li>
 	</ul>
