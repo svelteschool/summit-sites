@@ -60,14 +60,14 @@
 		<h2>Timezones</h2>
 		<hr />
 		<div class="cluster timezones">
-			<div class="zone">London (GMT)<br />5:00 pm</div>
-			<div class="zone">Stockholm (CET)<br />6:00 pm</div>
-			<div class="zone">Berlin (CET)<br />6:00 pm</div>
-			<div class="zone">Moscow (GMT+3)<br />9:00 pm</div>
-			<div class="zone">Tokyo (GMT+9)<br />2:00 am</div>
-			<div class="zone">Sydney (AEDT)<br />5:00 am</div>
-			<div class="zone">San Francisco (PST)<br />9:00 am</div>
-			<div class="zone">New York (EST)<br />12:00 pm</div>
+			<div class="zone">London (GMT)<br />2:00 pm</div>
+			<div class="zone">Stockholm (CET)<br />3:00 pm</div>
+			<div class="zone">Berlin (CET)<br />3:00 pm</div>
+			<div class="zone">Moscow (GMT+3)<br />6:00 pm</div>
+			<div class="zone">Tokyo (GMT+9)<br />11:00 PM</div>
+			<div class="zone">Sydney (AEDT)<br />2:00 am</div>
+			<div class="zone">San Francisco (PST)<br />6:00 am</div>
+			<div class="zone">New York (EST)<br />9:00 AM</div>
 		</div>
 	</div>
 </section>
