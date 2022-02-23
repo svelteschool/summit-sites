@@ -1,4 +1,4 @@
-<!-- <script context="module">
+<script context="module">
 	export const hydrate = false;
 	export const router = false;
 
@@ -15,14 +15,14 @@
 
 		return {
 			props: {
-				talks,
 				sponsors
 			}
 		};
 	}
-</script> -->
+</script>
+
 <script lang="ts">
-	// export let talks, sponsors;
+	export let talks, sponsors;
 
 	import Cover from '$lib/cover/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
@@ -43,6 +43,6 @@
 	href="https://sessionize.com/svelte-summit-spring-2022/"
 	id="speakers"
 />
-<Sponsors />
+<Sponsors {sponsors} />
 <!-- <Speakers {talks} /> -->
 <Faq />

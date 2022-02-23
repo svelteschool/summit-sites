@@ -1,6 +1,6 @@
 <script>
 	// Sponsor images
-	// import graphcms from './images/graphcms.png?w=700&webp';
+	import monogram from './images/monogram.svg';
 	// import leveluptuts from './images/leveluptuts.svg';
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
@@ -10,23 +10,18 @@
 	// import fauna from './images/fauna.svg';
 	// import wpengine from './images/wpengine.png?w=300&webp';
 
-	// const imageMap = new Map([
-	// 	['graphcms', graphcms],
-	// 	['leveluptuts', leveluptuts],
-	// 	['cloudflare', cloudflare],
-	// 	['svekyll', svekyll],
-	// 	['netlify', netlify],
-	// 	['vercel', vercel],
-	// 	['magic', magic],
-	// 	['fauna', fauna],
-	// 	['wpengine', wpengine],
-
-	// ])
-	export let sponsors = {
-		platinum: Array.from(Array(3).keys()),
-		gold: Array.from(Array(6).keys()),
-		silver: Array.from(Array(10).keys())
-	};
+	const imageMap = new Map([
+		['monogram', monogram]
+		// ['leveluptuts', leveluptuts],
+		// ['cloudflare', cloudflare],
+		// ['svekyll', svekyll],
+		// ['netlify', netlify],
+		// ['vercel', vercel],
+		// ['magic', magic],
+		// ['fauna', fauna],
+		// ['wpengine', wpengine],
+	]);
+	export let sponsors;
 </script>
 
 <section class="stack" id="sponsors">
@@ -103,7 +98,7 @@
 		place-items: center;
 		background: black;
 		border-radius: 5px;
-		padding: 1rem;
+		padding: 2rem;
 	}
 
 	.sponsor img {
@@ -128,6 +123,7 @@
 
 	.platinum img {
 		max-width: 350px;
+		max-height: 150px;
 	}
 
 	.gold img {
