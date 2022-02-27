@@ -5,18 +5,18 @@
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
 	// import netlify from './images/netlify.svg';
-	// import vercel from './images/vercel.svg';
+	import vercel from './images/vercel.svg';
 	// import magic from './images/magic.svg';
 	// import fauna from './images/fauna.svg';
 	// import wpengine from './images/wpengine.png?w=300&webp';
 
 	const imageMap = new Map([
-		['monogram', monogram]
+		['monogram', monogram],
 		// ['leveluptuts', leveluptuts],
 		// ['cloudflare', cloudflare],
 		// ['svekyll', svekyll],
 		// ['netlify', netlify],
-		// ['vercel', vercel],
+		['vercel', vercel]
 		// ['magic', magic],
 		// ['fauna', fauna],
 		// ['wpengine', wpengine],
