@@ -1,7 +1,7 @@
 <script>
 	// Sponsor images
 	import monogram from './images/monogram.png';
-	// import leveluptuts from './images/leveluptuts.svg';
+	import storyblok from './images/storyblok.png';
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
 	// import netlify from './images/netlify.svg';
@@ -12,7 +12,7 @@
 
 	const imageMap = new Map([
 		['monogram', monogram],
-		// ['leveluptuts', leveluptuts],
+		['storyblok', storyblok],
 		// ['cloudflare', cloudflare],
 		// ['svekyll', svekyll],
 		// ['netlify', netlify],
