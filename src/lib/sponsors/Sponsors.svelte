@@ -1,6 +1,6 @@
 <script>
 	// Sponsor images
-	import monogram from './images/monogram.svg';
+	import monogram from './images/monogram.png';
 	// import leveluptuts from './images/leveluptuts.svg';
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
@@ -38,7 +38,7 @@
 					data-tooltip={desc}
 					aria-label={name}
 				>
-					<img width="350" height="80" src={imageMap.get(image)} alt="{name} logo" />
+					<img height="150" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="platinum sponsor">Platinum 💎</a>
@@ -99,10 +99,7 @@
 		background: black;
 		border-radius: 5px;
 		padding: 2rem;
-	}
-
-	.sponsor img {
-		width: 100%;
+		cursor: pointer;
 	}
 
 	.platinums {
@@ -122,7 +119,6 @@
 	}
 
 	.platinum img {
-		max-width: 350px;
 		max-height: 150px;
 	}
 

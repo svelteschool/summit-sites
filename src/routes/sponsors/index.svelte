@@ -123,7 +123,7 @@
 				<h3>💎 Platinum</h3>
 				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
-			<p><span class="sponsor-count">(3 of 3 left)</span></p>
+			<p><span class="sponsor-count">(0 of 3 left)</span></p>
 			<p>
 				This is the package for companies that really want to show their love for Svelte and the
 				Svelte community. You'll get the largest size logo on the website and an above the fold logo
@@ -141,7 +141,7 @@
 				<h3>🥇 Gold</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
-			<p><span class="sponsor-count">(6 of 6 left)</span></p>
+			<p><span class="sponsor-count">(5 of 6 left)</span></p>
 			<p>
 				You like Svelte a lot. And you want there to be more conferences. This is the package for
 				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
@@ -177,7 +177,7 @@
 				<h3>📦 Conference Break Sponsor</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
-			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p><span class="sponsor-count">(0 of 1 left)</span></p>
 			<p>
 				This Svelte Summit we're bringing back <a
 					class="sponsor-text-link"
