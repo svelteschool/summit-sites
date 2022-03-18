@@ -55,7 +55,7 @@
 					target="_blank"
 					data-tooltip={desc}
 				>
-					<img width="150" height="64" src={imageMap.get(image)} alt="{name} logo" />
+					<img height="64" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="gold sponsor">Gold 🥇</a>
@@ -72,7 +72,7 @@
 					target="_blank"
 					data-tooltip={desc}
 				>
-					<img width="150" height="64" src={imageMap.get(image)} alt="{name} logo" />
+					<img height="64" src={imageMap.get(image)} alt="{name} logo" />
 				</a>
 			{:else}
 				<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
@@ -83,6 +83,9 @@
 </section>
 
 <style>
+	section {
+		padding: 6rem 0;
+	}
 	.stack {
 		text-align: center;
 		width: 100%;
@@ -111,7 +114,8 @@
 	}
 
 	.gold {
-		min-height: 150px;
+		padding: 1rem;
+		height: 150px;
 	}
 
 	.silver {
@@ -138,6 +142,12 @@
 		}
 		.silvers {
 			grid-template-columns: 1fr 1fr 1fr;
+		}
+		.gold {
+			height: 100px;
+		}
+		.gold img {
+			max-width: 100px;
 		}
 
 		.sponsors {

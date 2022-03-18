@@ -21,7 +21,7 @@ export const get = () => {
 			{},
 			{}
 		],
-		silver: Array.from(Array(10).keys()),
+		silver: Array.from(Array(8).keys()),
 	};
 
 	return {
