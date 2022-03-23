@@ -4,7 +4,7 @@
 	import storyblok from './images/storyblok.png';
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
-	// import netlify from './images/netlify.svg';
+	import graphcms from './images/graphcms.png';
 	import vercel from './images/vercel.svg';
 	// import magic from './images/magic.svg';
 	// import fauna from './images/fauna.svg';
@@ -15,7 +15,7 @@
 		['storyblok', storyblok],
 		// ['cloudflare', cloudflare],
 		// ['svekyll', svekyll],
-		// ['netlify', netlify],
+		['graphcms', graphcms],
 		['vercel', vercel]
 		// ['magic', magic],
 		// ['fauna', fauna],
@@ -123,7 +123,7 @@
 	}
 
 	.platinum img {
-		max-height: 150px;
+		max-height: 125px;
 	}
 
 	.gold img {

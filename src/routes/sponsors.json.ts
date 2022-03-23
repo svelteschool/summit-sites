@@ -6,6 +6,12 @@ export const get = () => {
 				name: 'Monogram',
 				desc: 'Digital agency designing and developing the best Jamstack websites and web apps.',
 				image: 'monogram'
+			},
+			{
+				url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
+				name: 'GraphCMS',
+				desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
+				image: 'graphcms'
 			}
 		],
 		gold: [
