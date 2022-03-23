@@ -5,8 +5,14 @@
 </script>
 
 {#if !signedUp}
-	<form class="background" id="signup" action="/subscribe" method="post">
+	<form
+		class="background"
+		id="signup"
+		action="https://marketing.sveltesociety.dev/subscription/form"
+		method="post"
+	>
 		<div class="container">
+			<input type="hidden" name="nonce" />
 			<input
 				required
 				class:error={error !== false}
@@ -14,7 +20,17 @@
 				type="email"
 				placeholder="Your e-mail address..."
 			/>
-			<button class="primary-bg">Sign up</button>
+			<button class="primary-bg">Sign up to</button>
+			<p style="display: none;">
+				<input
+					id="14609"
+					type="checkbox"
+					name="l"
+					checked
+					value="14609764-92ce-4cca-861e-a2ff446dd28c"
+				/>
+				<label for="14609">Svelte Summit</label>
+			</p>
 		</div>
 		{#if error}
 			<span class="error-message">{error}</span>
