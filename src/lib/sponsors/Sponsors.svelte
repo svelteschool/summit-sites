@@ -5,7 +5,7 @@
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
 	import graphcms from './images/graphcms.png';
-	import vercel from './images/vercel.svg';
+	import vercel from './images/vercel.png';
 	// import magic from './images/magic.svg';
 	// import fauna from './images/fauna.svg';
 	// import wpengine from './images/wpengine.png?w=300&webp';
@@ -110,7 +110,7 @@
 	}
 
 	.platinum {
-		min-height: 200px;
+		min-height: 150px;
 	}
 
 	.gold {
@@ -123,11 +123,11 @@
 	}
 
 	.platinum img {
-		max-height: 125px;
+		max-height: 100px;
 	}
 
 	.gold img {
-		max-width: 150px;
+		max-width: 200px;
 	}
 	.golds {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

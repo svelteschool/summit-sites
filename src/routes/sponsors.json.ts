@@ -12,7 +12,13 @@ export const get = () => {
 				name: 'GraphCMS',
 				desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
 				image: 'graphcms'
-			}
+			},
+			{
+				url: 'https://vercel.com',
+				name: 'Vercel',
+				desc: 'Vercel is the easiest way to deploy your Svelte apps.',
+				image: 'vercel'
+			},
 		],
 		gold: [
 			{
