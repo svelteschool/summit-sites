@@ -27,13 +27,8 @@ export const get = () => {
 				desc: 'Storyblok is a Headless CMS that helps developers leverage the advantages of Svelte using reusable components and real-time visual editor.',
 				image: 'storyblok'
 			},
-			{},
-			{},
-			{},
-			{},
 			{}
-		],
-		silver: Array.from(Array(8).keys()),
+		]
 	};
 
 	return {

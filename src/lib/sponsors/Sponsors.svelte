@@ -62,7 +62,7 @@
 			{/if}
 		{/each}
 	</div>
-	<div class="sponsors silvers">
+	<!-- <div class="sponsors silvers">
 		{#each sponsors.silver as { url, name, desc, image }}
 			{#if name}
 				<a
@@ -78,7 +78,7 @@
 				<a href="/sponsors" class="silver sponsor">Silver 🥈</a>
 			{/if}
 		{/each}
-	</div>
+	</div> -->
 	<h3><a href="/sponsors" class="button primary-bg">Become a sponsor</a></h3>
 </section>
 
@@ -130,7 +130,7 @@
 		max-width: 200px;
 	}
 	.golds {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
 	}
 	.silvers {
 		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));

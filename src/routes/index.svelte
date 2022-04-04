@@ -1,6 +1,7 @@
 <script context="module">
 	export const hydrate = false;
 	export const router = false;
+	export const prerender = true;
 
 	/** @type {import('@sveltejs/kit').Load} */
 	export async function load({ fetch }) {
@@ -15,7 +16,8 @@
 
 		return {
 			props: {
-				sponsors
+				sponsors,
+				talks
 			}
 		};
 	}
@@ -26,8 +28,7 @@
 
 	import Cover from '$lib/cover/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
-	import CTA from '$lib/CTA.svelte';
-	// import Speakers from '$lib/speakers/Speakers.svelte';
+	import Speakers from '$lib/speakers/Speakers.svelte';
 
 	import Faq from '$lib/faq/Faq.svelte';
 </script>
@@ -37,12 +38,12 @@
 </svelte:head>
 
 <Cover />
-<CTA
+<!-- <CTA
 	title="We're looking for more speakers!"
 	text="We’re looking for people who want to speak about Svelte related topics during our virtual conference. Talks are pre-recorded beforehand and can either be 25 or 5-10 minutes long. Your talk must be about Svelte in some way."
 	href="https://sessionize.com/svelte-summit-spring-2022/"
 	id="speakers"
-/>
+/> -->
 <Sponsors {sponsors} />
-<!-- <Speakers {talks} /> -->
+<Speakers {talks} />
 <Faq />

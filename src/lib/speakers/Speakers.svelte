@@ -1,47 +1,4 @@
 <script>
-	import AustinCrim from './photos/Austin_Crim.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import BenHolmes from './photos/Ben_Holmes.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import DeanFogarty from './photos/Dean_Fogarty.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Dominik from './photos/Dominik_G.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Evyatar from './photos/Evyatar_Alush.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Geoff from './photos/Geoff_Rich.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import JesseSkinner from './photos/Jesse_Skinner.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Jim from './photos/Jim_Fisk.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Kellen from './photos/Kellen_Mace.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import KenKunz from './photos/Ken_Kunz.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Kevin from './photos/Kevin_Bridges.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Mateo from './photos/Mateo_Morris.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Scott from './photos/Scott_Tolinski.jpg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Steph from './photos/Steph_Dietz.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import StephLuz from './photos/Stephanie_Luz.png?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-	import Rich from './photos/Rich_Harris.jpeg?w=100;200&format=webp;avif;jp2;jpg&meta&quality=90';
-
-	const sortImage = (acc, img) => {
-		acc[img.format].push(img);
-		return acc;
-	};
-
-	const imageStructure = () => ({ avif: [], jpeg: [], webp: [], jpg: [] });
-
-	const imageMap = new Map([
-		['austin', AustinCrim.reduce(sortImage, imageStructure())],
-		['ben', BenHolmes.reduce(sortImage, imageStructure())],
-		['dean', DeanFogarty.reduce(sortImage, imageStructure())],
-		['dominik', Dominik.reduce(sortImage, imageStructure())],
-		['evyatar', Evyatar.reduce(sortImage, imageStructure())],
-		['geoff', Geoff.reduce(sortImage, imageStructure())],
-		['jesse', JesseSkinner.reduce(sortImage, imageStructure())],
-		['jim', Jim.reduce(sortImage, imageStructure())],
-		['kellen', Kellen.reduce(sortImage, imageStructure())],
-		['ken', KenKunz.reduce(sortImage, imageStructure())],
-		['kevin', Kevin.reduce(sortImage, imageStructure())],
-		['mateo', Mateo.reduce(sortImage, imageStructure())],
-		['scott', Scott.reduce(sortImage, imageStructure())],
-		['steph', Steph.reduce(sortImage, imageStructure())],
-		['stephLuz', StephLuz.reduce(sortImage, imageStructure())],
-		['rich', Rich.reduce(sortImage, imageStructure())]
-	]);
-
 	export let talks;
 </script>
 
@@ -49,39 +6,33 @@
 	<h2 id="speakers">Speakers</h2>
 	<hr />
 	<ul class="grid">
-		{#each talks as { author, title, text }}
+		{#each talks as { speakers, title, description }}
 			<li>
 				<article class="speaker">
 					<div class="profile">
-						{#each author as { image, name }}
+						{#each speakers as { profilePicture, fullName }}
 							<picture>
-								{#each Object.values(imageMap.get(image)) as [first, second]}
-									<source
-										srcset="{first.src} w{first.width}, {second.src}, w{second.width}"
-										type="image/{first.format}"
-									/>
-								{/each}
 								<img
 									width="100"
 									height="100"
-									src={imageMap.get(image).jpg[1].src}
+									src={profilePicture}
 									loading="lazy"
-									alt="Image of {name}"
+									alt="Image of {fullName}"
 								/>
 							</picture>
 						{/each}
 					</div>
 					<div class="title">
-						{#each author as speaker}
+						{#each speakers as { fullName, links }}
 							<address rel="author">
-								{speaker.name}
-								{#if speaker.twitter}
+								{fullName}
+								{#if links}
 									<a
-										href="https://twitter.com/{speaker.twitter}"
+										href={links[0].url}
 										target="_blank"
 										rel="noopener noreferrer"
 										class="twitter with-icon"
-										aria-label="{speaker.name} Twitter"
+										aria-label="{fullName} Twitter"
 									>
 										<svg
 											class="icon"
@@ -100,7 +51,7 @@
 						<h3>{title}</h3>
 					</div>
 					<div class="text">
-						{@html text}
+						<p>{@html description}</p>
 					</div>
 				</article>
 			</li>
@@ -115,7 +66,6 @@
 	}
 	.center {
 		--max-width: 1180px;
-		padding: 0;
 	}
 	.twitter {
 		color: #e4eef0;

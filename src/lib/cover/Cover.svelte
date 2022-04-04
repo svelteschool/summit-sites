@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
 	import logo from './logo.svg';
 
 	import EmailSignup from './EmailSignup.svelte';
