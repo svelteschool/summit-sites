@@ -2,6 +2,7 @@
 	// Sponsor images
 	import monogram from './images/monogram.png';
 	import storyblok from './images/storyblok.png';
+	import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
 	// import svekyll from './images/svekyll.png?w=300&webp';
 	import graphcms from './images/graphcms.png';
@@ -13,6 +14,7 @@
 	const imageMap = new Map([
 		['monogram', monogram],
 		['storyblok', storyblok],
+		['array', array],
 		// ['cloudflare', cloudflare],
 		// ['svekyll', svekyll],
 		['graphcms', graphcms],
