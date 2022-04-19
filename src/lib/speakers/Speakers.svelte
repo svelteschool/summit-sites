@@ -1,5 +1,7 @@
 <script>
 	export let talks;
+
+	console.log(talks[2].speakers);
 </script>
 
 <section class="stack center">
@@ -26,9 +28,9 @@
 						{#each speakers as { fullName, links }}
 							<address rel="author">
 								{fullName}
-								{#if links}
+								{#if links[0]}
 									<a
-										href={links[0].url}
+										href={links[0]?.url}
 										target="_blank"
 										rel="noopener noreferrer"
 										class="twitter with-icon"
