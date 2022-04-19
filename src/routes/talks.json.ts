@@ -4,8 +4,6 @@ export const get = async () => {
 
 	sessions = sessions.map(session => ({ ...session, speakers: session.speakers.map(sessionSpeaker => speakers.find(speaker => speaker.id === sessionSpeaker)) }))
 
-	console.log(sessions)
-
 	const isPublished = ['329933', '326239', '324095', '324443', '327225']
 
 	const exposedSessions = sessions.reduce((acc, session) => isPublished.includes(session.id) ? [...acc, session] : acc, [])

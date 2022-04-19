@@ -1,7 +1,5 @@
 <script>
 	export let talks;
-
-	console.log(talks[2].speakers);
 </script>
 
 <section class="stack center">
