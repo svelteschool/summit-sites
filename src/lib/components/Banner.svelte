@@ -1,6 +1,6 @@
 <div class="banner">
 	<span>
-		Svelte Summit Fall Tickets are on sale! <a
+		Upcoming: Svelte Summit Fall Tickets are on sale! <a
 			target="_blank"
 			rel="noopener noreferrer"
 			href="https://ti.to/svelte/svelte-summit-fall-edition">Get yours here</a
