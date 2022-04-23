@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { sveltePreprocessSvg } from '@svitejs/svelte-preprocess-svg';
 import preprocess from 'svelte-preprocess';
 import { imagetools } from 'vite-imagetools';
@@ -15,7 +15,7 @@ const config = {
 	},
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({ edge: true }),
 		vite: {
 			plugins: [imagetools()],
 		}
