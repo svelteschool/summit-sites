@@ -1,7 +1,6 @@
 import adapter from '@sveltejs/adapter-vercel';
 import { sveltePreprocessSvg } from '@svitejs/svelte-preprocess-svg';
 import preprocess from 'svelte-preprocess';
-import { imagetools } from 'vite-imagetools';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -16,9 +15,6 @@ const config = {
 
 	kit: {
 		adapter: adapter({ edge: true }),
-		vite: {
-			plugins: [imagetools()],
-		}
 	}
 };
 
