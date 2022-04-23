@@ -7,7 +7,7 @@
 	// import svekyll from './images/svekyll.png?w=300&webp';
 	import graphcms from './images/graphcms.png';
 	import vercel from './images/vercel.png';
-	// import magic from './images/magic.svg';
+	import jsdb from './images/jsdb.svg';
 	// import fauna from './images/fauna.svg';
 	// import wpengine from './images/wpengine.png?w=300&webp';
 
@@ -18,7 +18,8 @@
 		// ['cloudflare', cloudflare],
 		// ['svekyll', svekyll],
 		['graphcms', graphcms],
-		['vercel', vercel]
+		['vercel', vercel],
+		['jsdb', jsdb]
 		// ['magic', magic],
 		// ['fauna', fauna],
 		// ['wpengine', wpengine],

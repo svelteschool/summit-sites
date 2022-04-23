@@ -28,10 +28,16 @@ export const get = () => {
 				image: 'storyblok'
 			},
 			{
-				url: 'https://array.com/company/about-us ',
+				url: 'https://array.com/company/about-us',
 				name: 'Array',
 				desc: 'A financial wellness and identity tool that allows businesses  to leverage consumers credit data to offer new tailored services and products to their end users',
 				image: 'array'
+			},
+			{
+				url: 'https://javascriptdb.com/',
+				name: 'JavascriptDB',
+				desc: 'Use javascript as a database. Build low code serverless applications faster than ever.',
+				image: 'jsdb'
 			}
 		]
 	};
