@@ -34,7 +34,7 @@ export const get = () => {
 				image: 'array'
 			},
 			{
-				url: 'https://javascriptdb.com/',
+				url: 'https://javascriptdb.com/?ctx=svelte-summit',
 				name: 'JavascriptDB',
 				desc: 'Use javascript as a database. Build low code serverless applications faster than ever.',
 				image: 'jsdb'
