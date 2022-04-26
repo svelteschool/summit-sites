@@ -51,7 +51,9 @@
 						<h3>{title}</h3>
 					</div>
 					<div class="text">
-						<p>{@html description}</p>
+						{#each description.split('\r\n\r\n') as paragraph}
+							<p>{@html paragraph}</p>
+						{/each}
 					</div>
 				</article>
 			</li>
@@ -113,6 +115,10 @@
 		width: 100%;
 		max-width: 100px;
 		border-radius: 9999px;
+	}
+
+	p {
+		margin-bottom: 1rem;
 	}
 
 	@media screen and (max-width: 850px) {
