@@ -3,29 +3,35 @@
 		<h2 id="faq">FAQ</h2>
 		<hr />
 		<dl class="questions">
-			<dt>How do I watch it?</dt>
-			<dd>
-				Once the day arrives, tune in to the <a
-					href="https://youtu.be/qqj2cBockqE"
-					target="_blank"
-					rel="noopener noreferrer">Svelte Society YouTube channel</a
-				> and start watching. We'll also make sure to post a notice at the top of this page if you forget
-				where to go.
-			</dd>
-			<dt>What is this?</dt>
-			<dd>
-				Svelte Summit is an event dedicated to Svelte and everything that is happening in the
-				community. You'll be able to tune in to a full day of talks and discussions all while
-				chatting to other Svelthusiasts on the Discord server.
-			</dd>
-			<dt>Will it be recorded?</dt>
-			<dd>
-				Absolutely! You'll find it on the <a
-					href="https://youtube.com/sveltesociety"
-					target="_blank"
-					rel="noopener noreferrer">Svelte Society YouTube channel</a
-				> once the event has been finished.
-			</dd>
+			<div class="question">
+				<dt>How do I watch it?</dt>
+				<dd>
+					Once the day arrives, tune in to the <a
+						href="https://youtu.be/qqj2cBockqE"
+						target="_blank"
+						rel="noopener noreferrer">Svelte Society YouTube channel</a
+					> and start watching. We'll also make sure to post a notice at the top of this page if you
+					forget where to go.
+				</dd>
+			</div>
+			<div class="question">
+				<dt>What is this?</dt>
+				<dd>
+					Svelte Summit is an event dedicated to Svelte and everything that is happening in the
+					community. You'll be able to tune in to a full day of talks and discussions all while
+					chatting to other Svelthusiasts on the Discord server.
+				</dd>
+			</div>
+			<div class="question">
+				<dt>Will it be recorded?</dt>
+				<dd>
+					Absolutely! You'll find it on the <a
+						href="https://youtube.com/sveltesociety"
+						target="_blank"
+						rel="noopener noreferrer">Svelte Society YouTube channel</a
+					> once the event has been finished.
+				</dd>
+			</div>
 			<dt>Can you remind me when the date gets closer?</dt>
 			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
@@ -36,22 +42,26 @@
 					rel="noopener noreferrer">here</a
 				>.
 			</dd>
-			<dt>Do you have a code of conduct?</dt>
-			<dd>
-				We sure do. And we expect everyone to abide by it. You can read it here: <a
-					href="https://github.com/sveltejs/community/blob/main/CODE_OF_CONDUCT.md"
-					target="_blank"
-					rel="noopener noreferrer">Code of Conduct</a
-				>.
-			</dd>
-			<dt>I want to sponsor the event!</dt>
-			<dd>
-				The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
-					>sponsors@sveltesummit.com</a
-				>
-				and tell us what you have in mind. We have two different levels of sponsorship: Platinum and
-				Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
-			</dd>
+			<div class="question">
+				<dt>Do you have a code of conduct?</dt>
+				<dd>
+					We sure do. And we expect everyone to abide by it. You can read it here: <a
+						href="https://github.com/sveltejs/community/blob/main/CODE_OF_CONDUCT.md"
+						target="_blank"
+						rel="noopener noreferrer">Code of Conduct</a
+					>.
+				</dd>
+			</div>
+			<div class="question">
+				<dt>I want to sponsor the event!</dt>
+				<dd>
+					The easiest way is to fire off an email to <a href="mailto:sponsors@sveltesummit.com"
+						>sponsors@sveltesummit.com</a
+					>
+					and tell us what you have in mind. We have two different levels of sponsorship: Platinum and
+					Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
+				</dd>
+			</div>
 		</dl>
 	</div>
 </section>
