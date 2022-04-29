@@ -38,6 +38,12 @@ export const get = () => {
 				name: 'JavascriptDB',
 				desc: 'Use javascript as a database. Build low code serverless applications faster than ever.',
 				image: 'jsdb'
+			},
+			{
+				url: 'https://netlify.com',
+				name: 'Netlify',
+				desc: 'Netlify, the platform for modern web development.',
+				image: 'netlify'
 			}
 		]
 	};

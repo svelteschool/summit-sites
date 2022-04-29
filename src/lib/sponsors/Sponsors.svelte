@@ -4,7 +4,7 @@
 	import storyblok from './images/storyblok.png';
 	import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
-	// import svekyll from './images/svekyll.png?w=300&webp';
+	import netlify from './images/netlify.png';
 	import graphcms from './images/graphcms.png';
 	import vercel from './images/vercel.png';
 	import jsdb from './images/jsdb.svg';
@@ -16,7 +16,7 @@
 		['storyblok', storyblok],
 		['array', array],
 		// ['cloudflare', cloudflare],
-		// ['svekyll', svekyll],
+		['netlify', netlify],
 		['graphcms', graphcms],
 		['vercel', vercel],
 		['jsdb', jsdb]

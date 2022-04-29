@@ -141,7 +141,7 @@
 				<h3>🥇 Gold</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
-			<p><span class="sponsor-count">(5 of 6 left)</span></p>
+			<p><span class="sponsor-count">(2 of 6 left)</span></p>
 			<p>
 				You like Svelte a lot. And you want there to be more conferences. This is the package for
 				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
