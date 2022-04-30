@@ -8,7 +8,7 @@
 			Watch it
 			<span class="live">LIVE</span>
 			on
-			<a href="hhttps://www.youtube.com/watch?v={id}" rel="noreferrer" target="_blank">YouTube</a>!
+			<a href="https://www.youtube.com/watch?v={id}" rel="noreferrer" target="_blank">YouTube</a>!
 		</h2>
 		<iframe
 			title="Svelte Summit Live YouTube Video"
