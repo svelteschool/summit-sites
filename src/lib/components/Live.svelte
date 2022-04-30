@@ -26,4 +26,7 @@
 	.background {
 		text-align: center;
 	}
+	iframe {
+		max-width: 100%;
+	}
 </style>
