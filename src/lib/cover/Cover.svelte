@@ -2,19 +2,25 @@
 	import logo from './logo.svg';
 
 	import EmailSignup from './EmailSignup.svelte';
+	import Live from '$lib/components/Live.svelte';
 </script>
 
 <section class="cover" id="intro">
 	<img class="logo center" width="109" height="120" src={logo} alt="Svelte Society Presents" />
-	<h1 class="heading center">
+	<div class="center">
+		<Live id="qqj2cBockqE" />
+	</div>
+	<!-- <h1 class="heading center">
 		<span class="title">Svelte Summit<br /><span class="highlight-text">Spring</span></span>
 		<small>
 			<time datetime="2022-04-30">Apr. 30 2022</time>
 			<span class="subheading">The 5th virtual Svelte conference</span>
 		</small>
-	</h1>
+	</h1> -->
 	<div class="center">
-		<EmailSignup />
+		<a href="https://discord.gg/svelte" target="_blank" rel="noopener norefferer"
+			>Talk about it in the Discord Server</a
+		>
 	</div>
 </section>
 
