@@ -82,10 +82,13 @@
 			{/if}
 		{/each}
 	</div> -->
-	<div><a href="/sponsors" class="button">Become a sponsor</a></div>
+	<div class="sponsor-cta"><a href="/sponsors" class="button">Become a sponsor</a></div>
 </section>
 
 <style>
+	.sponsor-cta {
+		margin-top: 20px;
+	}
 	section {
 		padding: 6rem 0;
 	}

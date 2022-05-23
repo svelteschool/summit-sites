@@ -43,6 +43,17 @@
 		z-index: 10000;
 	}
 
+	@media (max-width: 600px) {
+		header {
+			font-size: 0.9rem;
+			padding: 0.5em;
+		}
+		.button {
+			padding: 0.5rem 1.2rem;
+			font-size: 0.9rem;
+		}
+	}
+
 	.cluster {
 		align-items: center;
 		justify-content: flex-start;
