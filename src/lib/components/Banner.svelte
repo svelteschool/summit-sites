@@ -33,4 +33,10 @@
 	a:hover {
 		color: var(--cover-background-dark);
 	}
+
+	@media (max-width: 600px) {
+		.banner {
+			font-size: 0.9rem;
+		}
+	}
 </style>
