@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-	<title>Svelte Summit Spring 2022</title>
+	<title>Svelte Summit Fall 2022</title>
 </svelte:head>
 
 <Cover />
