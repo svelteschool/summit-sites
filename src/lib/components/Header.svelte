@@ -7,6 +7,11 @@
 			<li><a href="/#speakers">Speakers</a></li>
 			<li><a href="/#faq">FAQ</a></li>
 			<li>
+				<a class="button" target="_blank" href="https://ti.to/svelte/svelte-summit-fall-edition"
+					>Tickets</a
+				>
+			</li>
+			<!-- <li>
 				<a
 					href="https://twitter.com/sveltesociety"
 					target="_blank"
@@ -24,7 +29,7 @@
 					</svg>
 					Twitter
 				</a>
-			</li>
+			</li> -->
 		</ul>
 	</nav>
 </header>
@@ -34,7 +39,7 @@
 		position: fixed;
 		width: 100%;
 		background: var(--bg-dark-color);
-		padding: 0.75em;
+		padding: 1em 0;
 		z-index: 10000;
 	}
 

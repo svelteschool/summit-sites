@@ -1,9 +1,9 @@
 <div class="banner">
 	<span>
-		Upcoming: Svelte Summit Fall Tickets are on sale! <a
+		Buy your ticket before June 1st and get a chance at joining the speaker dinner. <a
 			target="_blank"
 			rel="noopener noreferrer"
-			href="https://ti.to/svelte/svelte-summit-fall-edition">Get yours here</a
+			href="https://ti.to/svelte/svelte-summit-fall-edition">Purchase here.</a
 		>
 	</span>
 </div>

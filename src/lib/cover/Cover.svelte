@@ -1,7 +1,7 @@
 <script lang="ts">
 	import logo from './logo.svg';
 
-	// import EmailSignup from './EmailSignup.svelte';
+	import EmailSignup from './EmailSignup.svelte';
 	// import Live from '$lib/components/Live.svelte';
 </script>
 
@@ -11,16 +11,17 @@
 		<Live id="qqj2cBockqE" />
 	</div> -->
 	<h1 class="heading center">
-		<span class="title">Svelte Summit<br /><span class="highlight-text">Spring</span></span>
+		<span class="title">Svelte Summit<br /><span class="highlight-text">Fall</span></span>
 		<small>
-			<time datetime="2022-04-30">Apr. 30 2022</time>
-			<span class="subheading">The 5th virtual Svelte conference</span>
+			<time datetime="2022-09-08">Sep 8-9 2022</time>
+			<span class="subheading">Stockholm Sweden</span>
 		</small>
 	</h1>
 	<div class="center">
-		<a href="https://www.youtube.com/watch?v=qqj2cBockqE" target="_blank" rel="noopener norefferer"
+		<!-- <a href="https://www.youtube.com/watch?v=qqj2cBockqE" target="_blank" rel="noopener norefferer"
 			>Watch it on YouTube</a
-		>
+		> -->
+		<EmailSignup />
 	</div>
 </section>
 
@@ -30,7 +31,7 @@
 		background-image: url('/bg.svg');
 		background-repeat: no-repeat;
 		background-position: center;
-		background-size: 40vh;
+		background-size: contain;
 	}
 
 	section {
@@ -85,11 +86,11 @@
 	}
 
 	.subheading {
-		max-width: 13ch;
+		max-width: 8ch;
 		font-size: 3.24rem;
 		line-height: 1.05;
 		margin-top: 9px;
-		color: #ff7de2;
+		color: var(--primary-color);
 	}
 
 	@media (max-width: 600px) {

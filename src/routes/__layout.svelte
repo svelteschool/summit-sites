@@ -7,7 +7,7 @@
 
 <svelte:head>
 	<!-- Primary Meta Tags -->
-	<title>Svelte Summit Spring 2022: The 5th Svelte only conference</title>
+	<title>Svelte Summit Fall 2022: The First In-person Svelte only conference</title>
 	<meta content="Svelte Summit Spring 2022: The 5th Svelte only conference" name="title" />
 	<meta
 		content="Svelte Summit is an online JavaScript event focused on Svelte and its community taking place on April 30th 2022."

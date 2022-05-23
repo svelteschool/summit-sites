@@ -5,7 +5,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''), url('/fonts/Anton-Regular-subset.woff2') format("woff2");
-	unicode-range: U+20,U+2E,U+30,U+32,U+33,U+35,U+41,U+43,U+45-49,U+4C-50,U+52-56;
+	unicode-range: U+20,U+2D,U+30,U+32,U+38,U+39,U+41,U+43-46,U+48,U+49,U+4B-50,U+53-57,U+65,U+68,U+69,U+6E-70,U+72-75;
 }
 
 /* overpass-regular - latin */
@@ -15,7 +15,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''), url('/fonts/Overpass-Regular-subset.woff2') format("woff2");
-	unicode-range: U+20,U+2C,U+2D,U+31,U+34,U+3A,U+3F,U+41-49,U+4B-54,U+56,U+57,U+61-7A,U+2019,U+1F48E,U+1F4E6,U+1F947,U+1F948;
+	unicode-range: U+20,U+21,U+27,U+2E,U+3F,U+41,U+43,U+44,U+46-48,U+4C,U+4D,U+4F-54,U+57,U+61-69,U+6B-77,U+79,U+7A,U+2615,U+FE0F,U+1F399,U+1F425,U+1F427,U+1F48E,U+1F4A1,U+1F947,U+1F959,U+1FAAA;
 }
 /* overpass-600 - latin */
 @font-face {
@@ -24,7 +24,7 @@
 	font-weight: 600;
 	font-display: swap;
 	src: local(''), url('/fonts/Overpass-Bold-subset.woff2') format('woff2');
-	unicode-range: U+20,U+2C,U+2D,U+31,U+34,U+3A,U+3F,U+41-49,U+4B-54,U+56,U+57,U+61-7A,U+2019,U+1F48E,U+1F4E6,U+1F947,U+1F948;
+	unicode-range: U+20,U+21,U+27,U+2E,U+3F,U+41,U+43,U+44,U+46-48,U+4C,U+4D,U+4F-54,U+57,U+61-69,U+6B-77,U+79,U+7A,U+2615,U+FE0F,U+1F399,U+1F425,U+1F427,U+1F48E,U+1F4A1,U+1F947,U+1F959,U+1FAAA;
 }
 
 /* inter-regular - latin */
@@ -34,7 +34,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local(''), url('/fonts/Inter-Regular-subset.woff2') format('woff2');
-	unicode-range: U+9,U+A,U+20-22,U+26-29,U+2B-3A,U+3C-59,U+5F,U+61-7A,U+A0,U+2014,U+2019,U+201C,U+201D,U+20AC,U+1F947,U+1F948;
+	unicode-range: U+9,U+A,U+20-22,U+26-29,U+2B-54,U+57-59,U+5F,U+61-7A,U+7E,U+2019,U+20AC,U+1F446,U+1F48E,U+1F947;
 }
 /* inter-600 - latin */
 @font-face {
@@ -43,5 +43,5 @@
 	font-weight: 600;
 	font-display: swap;
 	src: local(''), url('/fonts/Inter-Bold-subset.woff2') format('woff2');
-	unicode-range: U+9,U+A,U+20-22,U+26-29,U+2B-3A,U+3C-59,U+5F,U+61-7A,U+A0,U+2014,U+2019,U+201C,U+201D,U+20AC,U+1F947,U+1F948;
+	unicode-range: U+9,U+A,U+20-22,U+26-29,U+2B-54,U+57-59,U+5F,U+61-7A,U+7E,U+2019,U+20AC,U+1F446,U+1F48E,U+1F947;
 }

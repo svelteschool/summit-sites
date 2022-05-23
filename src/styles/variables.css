@@ -6,14 +6,14 @@
 	--font-heading: 'Overpass';
 	--font-body: 'Inter';
 
-	--primary-color: rgb(255, 0, 199);
-	--primary-light: #FF7DE2;
-	--primary-dark-color: rgba(154, 35, 0, 1);
-	--cover-background-light: #0F0E2E;
-	--cover-background-dark: #0F0E2E;
+	--primary-color: #3BC0EA;
+	--primary-light: #17A4D0;
+	--primary-dark-color: #007094;
+	--cover-background-light: #122053;
+	--cover-background-dark: #122053;
 	--secondary-color: hsla(51, 87%, 39%, 1);
 	--tertiary-color: hsla(27, 84%, 35%, 1);
-	--highlight-color: #FF00C7;
+	--highlight-color: #3BC0EA;
 	--white: #ffffff;
 
 	--bg-color: #212121;
@@ -31,18 +31,12 @@
 	--max-width: 900px;
 }
 
+.highlight-text {
+	color: var(--primary-color)
+}
+
 @media screen and (max-width: 992px) {
 	:root {
 		--space: 0.75rem;
-	}
-}
-
-@supports (color: color(display-p3 1 1 1)) {
-	:root {
-		--primary-color: color(display-p3 1 0 0.78);
-		--primary-dark-color: color(display-p3 1 0 0.78);
-		--highlight-color: color(display-p3 1 0 0.78);
-		--white: color(display-p3 1, 1, 1);
-		--twitter-blue: color(display-p3 0.319 0.653 0.966);
 	}
 }

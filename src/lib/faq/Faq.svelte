@@ -4,23 +4,27 @@
 		<hr />
 		<dl class="questions">
 			<div class="question">
-				<dt>How do I watch it?</dt>
-				<dd>
-					Once the day arrives, tune in to the <a
-						href="https://youtu.be/qqj2cBockqE"
-						target="_blank"
-						rel="noopener noreferrer">Svelte Society YouTube channel</a
-					> and start watching. We'll also make sure to post a notice at the top of this page if you
-					forget where to go.
-				</dd>
-			</div>
-			<div class="question">
 				<dt>What is this?</dt>
 				<dd>
 					Svelte Summit is an event dedicated to Svelte and everything that is happening in the
-					community. You'll be able to tune in to a full day of talks and discussions all while
-					chatting to other Svelthusiasts on the Discord server.
+					community. This is the first time we're going in-person. Don't miss it! It's going to be
+					an absolute blast!
 				</dd>
+			</div>
+			<div class="question">
+				<dt>What is included in the ticket?</dt>
+				<dd>
+					<ul>
+						<li>2 days filled with talks and sessions from speakers across the world.</li>
+						<li>2 evenings with parties where you can hang out with other Svelte developers.</li>
+						<li>Breakfast, lunch and dinner on both days (with vegan options)</li>
+						<li>Dinner on the first day (with vegan options)</li>
+					</ul>
+				</dd>
+			</div>
+			<div class="question">
+				<dt>How many sessions will there be?</dt>
+				<dd>We're aiming to have around 15 sessions spread out over two days.</dd>
 			</div>
 			<div class="question">
 				<dt>Will it be recorded?</dt>
@@ -37,7 +41,7 @@
 			<dt>I'd like to do a talk, how can I submit one?</dt>
 			<dd>
 				You can submit one <a
-					href="https://sessionize.com/svelte-summit-spring-2022/"
+					href="https://sessionize.com/svelte-summit-fall-2022/"
 					target="_blank"
 					rel="noopener noreferrer">here</a
 				>.
@@ -59,13 +63,15 @@
 						>sponsors@sveltesummit.com</a
 					>
 					and tell us what you have in mind. We have two different levels of sponsorship: Platinum and
-					Gold. Our <a href="/sponsors">sponsor deck is available here</a>.
+					Gold. We also have a number of other cool packages that you can take a look at. Our
+					<a href="/sponsors">sponsor deck is available here</a>.
 				</dd>
 			</div>
 		</dl>
 	</div>
 </section>
-<section class="time">
+
+<!-- <section class="time">
 	<div class="stack center">
 		<h2>Timezones</h2>
 		<hr />
@@ -80,8 +86,7 @@
 			<div class="zone">New York (EST)<br />9:00 AM</div>
 		</div>
 	</div>
-</section>
-
+</section> -->
 <style>
 	section {
 		background: rgba(0, 0, 0, 0.5);
@@ -140,5 +145,8 @@
 		.questions {
 			column-count: 1;
 		}
+	}
+	li {
+		list-style-type: circle;
 	}
 </style>

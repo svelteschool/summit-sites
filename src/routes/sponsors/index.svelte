@@ -4,20 +4,21 @@
 
 <script>
 	import sveltekit from './_assets/sveltekitsatisfaction.png';
+	import kitInterest from './_assets/kit-interest.png';
 	import satisfaction from './_assets/sveltesatisfaction.png';
 	import loved from './_assets/loved.png';
 </script>
 
 <svelte:head>
-	<title>Svelte Summit Spring 2022 - Sponsors</title>
+	<title>Svelte Summit Fall 2022 - Sponsors</title>
 </svelte:head>
 
 <section class="cover">
 	<h1 class="center">
 		<span class="meta highlight-text"
-			><time>April 30th, </time>
-			<address>Worldwide</address></span
-		><span class="primary-text title">Sponsorship Opportunities</span>
+			><time>September 8-9,</time>
+			<address>Stockholm, Sweden</address></span
+		><span class="primary-text">Sponsorship Opportunities</span>
 	</h1>
 
 	<div class="contact center stack">
@@ -36,12 +37,17 @@
 		take pride in keeping it joyful and fun, much like how people feel when they decide to use
 		Svelte.
 	</p>
+	<p>
+		This time around we're going in-person. An absolutely awesome opportunity for you to meet and
+		talk with Svelte developers from across the world. We're aiming to get at least 250 developers
+		to join us.
+	</p>
 	<p>Below you'll find some stats on earlier events as well as our Social media accounts.</p>
 </section>
 
 <ul class="grid info-boxes">
 	<li class="card">
-		<span class="highlight-text">5<small>k</small></span>
+		<span class="highlight-text">2.5<small>k</small></span>
 		<span class="highlight-text desc">live attendees</span>
 	</li>
 	<li class="card">
@@ -53,19 +59,19 @@
 		<span class="repeating-colors desc">countries reached</span>
 	</li>
 	<li class="card">
-		<span class="primary-text">25<small />+</span>
+		<span class="primary-text">15<small />+</span>
 		<span class="primary-text desc">talks from around the world</span>
 	</li>
 	<li class="card" style="color: var(--twitter-blue);">
-		<span>14.3<small>k</small></span>
+		<span>15.5<small>k</small></span>
 		<span class="desc">twitter followers</span>
 	</li>
 	<li class="card">
-		<span class="highlight-text">170<small>k</small>+</span>
+		<span class="highlight-text">200<small>k</small>+</span>
 		<span class="highlight-text desc">YouTube views</span>
 	</li>
 	<li class="card">
-		<span class="primary-text">11<small>k</small></span>
+		<span class="primary-text">12<small>k</small></span>
 		<span class="primary-text desc">YouTube Subscribers</span>
 	</li>
 </ul>
@@ -95,6 +101,28 @@
 		<small>SvelteKit has the highest Satisfaction score of newcomer frameworks</small>
 	</a>
 	<a
+		href="https://2021.stateofjs.com/en-US/libraries/back-end-frameworks"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="stat stack box"
+	>
+		<img src={kitInterest} alt="Developer Satisfaction" />
+		<small
+			>SvelteKit has the highest Satisfaction score of all metaframeworks and the highest interest.</small
+		>
+	</a>
+	<a
+		href="https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="stat stack box"
+	>
+		<img src={satisfaction} alt="Developer Satisfaction" />
+		<small
+			>Most satisfying framework in State of JS 2021 Survey. Highest interest out of all frameworks.</small
+		>
+	</a>
+	<a
 		href="https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/"
 		target="_blank"
 		rel="noopener noreferrer"
@@ -110,7 +138,7 @@
 		class="stat stack box"
 	>
 		<img src={loved} alt="Most Loved Framework" />
-		<small>Most loved framework in StackOverflow 2020 Survey</small>
+		<small>Most loved framework in StackOverflow 2021 Survey</small>
 	</a>
 </div>
 
@@ -121,63 +149,129 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>💎 Platinum</h3>
-				<span class="price primary-text">€<data value="5000">5000</data></span>
+				<span class="price primary-text">€<data value="8000">8000</data></span>
 			</div>
-			<p><span class="sponsor-count">(0 of 3 left)</span></p>
+			<p><span class="sponsor-count">(3 of 3 left)</span></p>
 			<p>
 				This is the package for companies that really want to show their love for Svelte and the
 				Svelte community. You'll get the largest size logo on the website and an above the fold logo
 				in our email blasts. If you have any other interesting ideas we can discuss those as well.
 			</p>
 			<ul class="perks">
-				<li>Everything in 🥇 Gold</li>
-				<li>Largest size of logo on website and in slides between talks</li>
+				<li>Large logo on the event website before, during and after the event.</li>
+				<li>
+					Large (~3x size of Gold table) table with 2 roll-ups where you can present your company in
+					the lounge area during the event
+				</li>
+				<li>One slide in-between talks shown during the intermissions and breaks</li>
 				<li>Above the fold (on desktop) logo in all our email blasts</li>
-				<li>Other ideas, reach out to discuss</li>
+				<li>Announcement of sponsorship in email and on Twitter</li>
+				<li>5 tickets to the event itself</li>
+				<li>
+					Large logo at the start of the videos when they are uploaded to the YouTube channel after
+					the event.
+				</li>
+				<li>1 speaker dinner spot</li>
 			</ul>
 		</li>
-		<li class="box stack">
+		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>🥇 Gold</h3>
-				<span class="price primary-text">€<data value="3000">3000</data></span>
+				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
-			<p><span class="sponsor-count">(2 of 6 left)</span></p>
+			<p><span class="sponsor-count">(6 of 6 left)</span></p>
 			<p>
 				You like Svelte a lot. And you want there to be more conferences. This is the package for
 				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
 				separate videos that will be uploaded after the event on our YouTube channel
 			</p>
 			<ul class="perks">
-				<li>Everything in 🥈 Silver</li>
-				<li>Larger size of your logo on slides between talks</li>
+				<li>Logo on the event website before, during and after the event.</li>
 				<li>
-					Logo at the start of separate videos uploaded after the event on our YouTube channel.
+					Table with in 1 roll-up where you can present your company in the lounge area during the
+					event
 				</li>
-				<li>Announcement of sponsorship in an email to our subscribers.</li>
-			</ul>
-		</li>
-		<li class="box stack">
-			<div class="cluster">
-				<h3>🥈 Silver</h3>
-				<span class="price primary-text">€<data value="1000">1000</data></span>
-			</div>
-			<p><span class="sponsor-count">(20 of 20 left)</span></p>
-			<p>
-				You're a smaller company that wants to show your support for Svelte. This is an excellent
-				opportunity to let developers know you're interested in Svelte.
-			</p>
-			<ul class="perks">
-				<li>Logo on website</li>
-				<li>Logo shown at the start and end of the event</li>
-				<li>Social media tweet</li>
+				<li>
+					Logo at the start of the videos when they are uploaded to the YouTube channel after the
+					event.
+				</li>
+				<li>Announcement of sponsorship in email and on Twitter</li>
+				<li>2 tickets to the event itself</li>
 			</ul>
 		</li>
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
-				<h3>📦 Conference Break Sponsor</h3>
+				<h3>🎙 Podcast and 🐥 Twitter</h3>
+				<span class="price primary-text">€<data value="15000">15000</data></span>
+			</div>
+			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p>
+				You think the Svelte community is awesome and want to make sure it thrives. This is a
+				package that is designed to give you an opportunity to repeatedly keep the name of your
+				company in the mind's of our audience.
+			</p>
+			<ul class="perks">
+				<li>
+					A 30 second pre-roll and mid-roll ad in the <a
+						href="https://www.svelteradio.com"
+						target="_blank">Svelte Radio Podcast</a
+					> for 20 episodes (roughly 1 per week for 5 months).
+				</li>
+				<li>Your logo in the corner of our Twitter banner as well as a link in our profile Bio</li>
+				<li>Your logo in the corner of our YouTube banner</li>
+				<li>Link in pinned Tweets during the period.</li>
+				<li>Announcement of sponsorship in our email newsletter and our Twitter account</li>
+				<li>2 tickets to the event</li>
+			</ul>
+		</li>
+		<li class="box stack" style="grid-column: 1 / -1">
+			<div class="cluster">
+				<h3>🥙 Dinner and Lunch</h3>
+				<span class="price primary-text">€<data value="8000">8000</data></span>
+			</div>
+			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p>
+				You like food. And Svelte! This is your chance to get the venue branded with your company
+				during the lunches and dinners.
+			</p>
+			<ul class="perks">
+				<li>We decorate the venue with roll-ups of your company</li>
+				<li>Announcement of sponsorship from the MC/organizer before Lunch and Dinner</li>
+				<li>You will be visible at the dinner party event.</li>
+			</ul>
+		</li>
+		<li class="box stack">
+			<div class="cluster">
+				<h3>☕️ Coffee Sponsor</h3>
 				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
-			<p><span class="sponsor-count">(0 of 1 left)</span></p>
+			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p>We all need coffee. It's the life essence of a developer.</p>
+			<ul class="perks">
+				<li>Logo on the coffee cups</li>
+				<li>Roll-up by the coffee station(s)</li>
+			</ul>
+		</li>
+		<li class="box stack">
+			<div class="cluster">
+				<h3>🪪 Lanyard Sponsor</h3>
+				<span class="price primary-text">€<data value="3000">3000</data></span>
+			</div>
+			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p>
+				The lanyard is something people often keep after an event. It's a fund way to get some
+				exposure.
+			</p>
+			<ul class="perks">
+				<li>Your logo next to the Svelte Society/Summit logo on the lanyards</li>
+			</ul>
+		</li>
+		<li class="box stack" style="grid-column: 1 / -1">
+			<div class="cluster">
+				<h3>💡 Other ideas?</h3>
+				<span class="price primary-text">€<data value="X">X</data></span>
+			</div>
+			<p><span class="sponsor-count">(X left)</span></p>
 			<p>
 				This Svelte Summit we're bringing back <a
 					class="sponsor-text-link"

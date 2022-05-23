@@ -17,7 +17,7 @@
 			type="email"
 			placeholder="Your e-mail address..."
 		/>
-		<button class="primary-bg">Sign up to</button>
+		<button class="primary-bg">Get the newsletter</button>
 		<p style="display: none;">
 			<input
 				id="14609"
@@ -68,6 +68,7 @@
 	}
 
 	button {
-		color: black;
+		background: var(--primary-color);
+		color: white;
 	}
 </style>
