@@ -273,22 +273,12 @@
 			</div>
 			<p><span class="sponsor-count">(X left)</span></p>
 			<p>
-				This Svelte Summit we're bringing back <a
-					class="sponsor-text-link"
-					target="_blank"
-					rel="noopener noreferrer nofollow"
-					href="https://meetball.live">Meetball</a
-				>. It's an awesome 1-on-1 meeting platform that lets attendees to get to know each other
-				(and the speakers). By sponsoring this you'll be able to have your company visible during
-				the meet and greets as well as the opportunity to host. You'll share a few words with
-				everyone about your company before they head into the 1-on-1s.
+				Sometimes the packages we've designed don't fit the needs of you or your company. We're
+				definitely open to modifying already existing ones or creating completely custom made
+				packages just for you. Reach out to us and we'll figure something out!
 			</p>
 			<ul class="perks">
-				<li>Present the Meetball session</li>
-				<li>
-					Extra shout out (on stream) before and after the break to highlight the Meetball session
-				</li>
-				<li>Logo on the Meetball meeting website</li>
+				<li>Make your own perks!</li>
 			</ul>
 		</li>
 	</ul>
