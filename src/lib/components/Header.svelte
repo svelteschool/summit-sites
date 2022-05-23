@@ -46,7 +46,19 @@
 	.cluster {
 		align-items: center;
 		justify-content: flex-start;
-		--space: 0.2rem;
+		--space: 0.5rem;
+	}
+
+	li {
+		display: block;
+		margin: 10px;
+	}
+
+	li a {
+		color: white;
+	}
+	li a {
+		color: white;
 	}
 
 	/* .active {

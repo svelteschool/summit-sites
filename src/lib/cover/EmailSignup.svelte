@@ -17,7 +17,7 @@
 			type="email"
 			placeholder="Your e-mail address..."
 		/>
-		<button class="primary-bg">Get the newsletter</button>
+		<button>Get the newsletter</button>
 		<p style="display: none;">
 			<input
 				id="14609"

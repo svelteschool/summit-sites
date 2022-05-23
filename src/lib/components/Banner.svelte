@@ -16,6 +16,7 @@
 		min-height: 50px;
 		background: var(--primary-color);
 		color: var(--cover-background-dark);
+		padding: 15px 0;
 		position: sticky;
 		bottom: 0;
 		font-weight: 700;

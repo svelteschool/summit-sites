@@ -15,8 +15,6 @@ export const get = async () => {
         fullName: 'More coming soon...',
     })
 
-    console.log(speakers)
-
     return {
         status: 200,
         body: richFirst
