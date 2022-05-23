@@ -1,10 +1,11 @@
 <div class="banner">
 	<span>
-		Buy your ticket before June 1st and get a chance at joining the speaker dinner. <a
+		Win a chance to join us at the exclusive speaker dinner by <a
 			target="_blank"
 			rel="noopener noreferrer"
-			href="https://ti.to/svelte/svelte-summit-fall-edition">Purchase here.</a
-		>
+			href="https://ti.to/svelte/svelte-summit-fall-edition"
+			>picking up your ticket before June 1st</a
+		>.
 	</span>
 </div>
 
