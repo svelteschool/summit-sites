@@ -17,7 +17,10 @@
 	<!-- Open Graph / Facebook -->
 	<meta content="website" property="og:type" />
 	<meta content="https://sveltesummit.com/" property="og:url" />
-	<meta content="Svelte Summit Fall 2022: The 5th Svelte only conference" property="og:title" />
+	<meta
+		content="Svelte Summit Fall 2022: The first in-person Svelte only conference"
+		property="og:title"
+	/>
 	<meta content="The first in-person Svelte only conference." property="og:description" />
 	<meta content="https://sveltesummit.com/metaimg-fall22.png?2382623234843" property="og:image" />
 
