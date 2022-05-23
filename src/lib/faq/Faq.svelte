@@ -148,5 +148,6 @@
 	}
 	li {
 		list-style-type: circle;
+		list-style-position: inside;
 	}
 </style>
