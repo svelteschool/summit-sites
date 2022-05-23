@@ -149,7 +149,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>💎 Platinum</h3>
-				<span class="price primary-text">$<data value="8000">8000</data></span>
+				<span class="price primary-text">€<data value="8000">8000</data></span>
 			</div>
 			<p><span class="sponsor-count">(3 of 3 left)</span></p>
 			<p>
@@ -177,7 +177,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>🥇 Gold</h3>
-				<span class="price primary-text">$<data value="5000">5000</data></span>
+				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
 			<p><span class="sponsor-count">(6 of 6 left)</span></p>
 			<p>
@@ -202,7 +202,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>🎙 Podcast and 🐥 Twitter</h3>
-				<span class="price primary-text">$<data value="15000">15000</data></span>
+				<span class="price primary-text">€<data value="15000">15000</data></span>
 			</div>
 			<p><span class="sponsor-count">(1 of 1 left)</span></p>
 			<p>
@@ -227,7 +227,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>🥙 Dinner and Lunch</h3>
-				<span class="price primary-text">$<data value="8000">8000</data></span>
+				<span class="price primary-text">€<data value="8000">8000</data></span>
 			</div>
 			<p><span class="sponsor-count">(1 of 1 left)</span></p>
 			<p>
@@ -243,7 +243,7 @@
 		<li class="box stack">
 			<div class="cluster">
 				<h3>☕️ Coffee Sponsor</h3>
-				<span class="price primary-text">$<data value="3000">3000</data></span>
+				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
 			<p><span class="sponsor-count">(1 of 1 left)</span></p>
 			<p>We all need coffee. It's the life essence of a developer.</p>
@@ -255,7 +255,7 @@
 		<li class="box stack">
 			<div class="cluster">
 				<h3>🪪 Lanyard Sponsor</h3>
-				<span class="price primary-text">$<data value="3000">3000</data></span>
+				<span class="price primary-text">€<data value="3000">3000</data></span>
 			</div>
 			<p><span class="sponsor-count">(1 of 1 left)</span></p>
 			<p>
@@ -269,7 +269,7 @@
 		<li class="box stack" style="grid-column: 1 / -1">
 			<div class="cluster">
 				<h3>💡 Other ideas?</h3>
-				<span class="price primary-text">$<data value="X">X</data></span>
+				<span class="price primary-text">€<data value="X">X</data></span>
 			</div>
 			<p><span class="sponsor-count">(X left)</span></p>
 			<p>
