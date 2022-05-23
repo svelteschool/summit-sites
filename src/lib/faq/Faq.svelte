@@ -18,7 +18,6 @@
 						<li>2 days filled with talks and sessions from speakers across the world.</li>
 						<li>2 evenings with parties where you can hang out with other Svelte developers.</li>
 						<li>Breakfast, lunch and dinner on both days (with vegan options)</li>
-						<li>Dinner on the first day (with vegan options)</li>
 					</ul>
 				</dd>
 			</div>

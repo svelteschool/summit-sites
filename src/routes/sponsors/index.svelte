@@ -151,7 +151,7 @@
 				<h3>💎 Platinum</h3>
 				<span class="price primary-text">€<data value="8000">8000</data></span>
 			</div>
-			<p><span class="sponsor-count">(3 of 3 left)</span></p>
+			<p><span class="sponsor-count">(2 of 3 left)</span></p>
 			<p>
 				This is the package for companies that really want to show their love for Svelte and the
 				Svelte community. You'll get the largest size logo on the website and an above the fold logo
