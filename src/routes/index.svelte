@@ -43,7 +43,7 @@
 	title="We're looking for more speakers!"
 	text="We’re looking for people who want to speak about Svelte related topics during our conference. Talks should be 30 minutes long. Accommodation and travel will be paid for."
 	href="https://sessionize.com/svelte-summit-fall-2022/"
-	id="speakers"
+	id="cfp"
 />
 <Sponsors {sponsors} />
 <Speakers {speakers} />
