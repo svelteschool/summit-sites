@@ -179,7 +179,7 @@
 				<h3>🥇 Gold</h3>
 				<span class="price primary-text">€<data value="5000">5000</data></span>
 			</div>
-			<p><span class="sponsor-count">(6 of 6 left)</span></p>
+			<p><span class="sponsor-count">(5 of 6 left)</span></p>
 			<p>
 				You like Svelte a lot. And you want there to be more conferences. This is the package for
 				you. You'll get everything in Silver but larger logos. You'll also be eternalised in the
@@ -204,7 +204,7 @@
 				<h3>🎙 Podcast and 🐥 Twitter</h3>
 				<span class="price primary-text">€<data value="15000">15000</data></span>
 			</div>
-			<p><span class="sponsor-count">(1 of 1 left)</span></p>
+			<p><span class="sponsor-count">(0 of 1 left)</span></p>
 			<p>
 				You think the Svelte community is awesome and want to make sure it thrives. This is a
 				package that is designed to give you an opportunity to repeatedly keep the name of your
