@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Banner from '$lib/components/Banner.svelte';
+	// import Banner from '$lib/components/Banner.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import '../styles/app.css';
@@ -46,4 +46,4 @@
 
 <Footer />
 
-<Banner />
+<!-- <Banner /> -->
