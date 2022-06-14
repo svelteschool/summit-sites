@@ -29,7 +29,12 @@ export const get = () => {
 			// },
 		],
 		gold: [
-			{},
+			{
+				url: 'https://www.storyblok.com/?utm_source=sveltesummit&utm_medium=logo&utm_campaign=sveltesummit2022',
+				name: 'Storyblok',
+				desc: 'Storyblok is a Headless CMS that helps developers leverage the advantages of Svelte using reusable components and real-time visual editor.',
+				image: 'storyblok'
+			},
 			{},
 			{},
 			{},
