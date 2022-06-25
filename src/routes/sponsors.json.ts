@@ -7,26 +7,24 @@ export const get = () => {
 				desc: 'Netlify, the platform for modern web development.',
 				image: 'netlify'
 			},
-			{},
-			{}
 			// {
 			// 	url: 'https://monogram.io',
 			// 	name: 'Monogram',
 			// 	desc: 'Digital agency designing and developing the best Jamstack websites and web apps.',
 			// 	image: 'monogram'
 			// },
-			// {
-			// 	url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
-			// 	name: 'GraphCMS',
-			// 	desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
-			// 	image: 'graphcms'
-			// },
-			// {
-			// 	url: 'https://vercel.com',
-			// 	name: 'Vercel',
-			// 	desc: 'Vercel is the easiest way to deploy your Svelte apps.',
-			// 	image: 'vercel'
-			// },
+			{
+				url: 'https://vercel.com',
+				name: 'Vercel',
+				desc: 'Vercel is the easiest way to deploy your Svelte apps.',
+				image: 'vercel'
+			},
+			{
+				url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
+				name: 'GraphCMS',
+				desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
+				image: 'graphcms'
+			},
 		],
 		gold: [
 			{

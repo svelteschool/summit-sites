@@ -5,8 +5,8 @@
 	// import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
 	import netlify from './images/netlify.png';
-	// import graphcms from './images/graphcms.png';
-	// import vercel from './images/vercel.png';
+	import graphcms from './images/graphcms.png';
+	import vercel from './images/vercel.png';
 	// import jsdb from './images/jsdb.svg';
 	// import fauna from './images/fauna.svg';
 	// import wpengine from './images/wpengine.png?w=300&webp';
@@ -16,9 +16,9 @@
 		['storyblok', storyblok],
 		// ['array', array],
 		// ['cloudflare', cloudflare],
-		['netlify', netlify]
-		// ['graphcms', graphcms],
-		// ['vercel', vercel],
+		['netlify', netlify],
+		['graphcms', graphcms],
+		['vercel', vercel]
 		// ['jsdb', jsdb]
 		// ['magic', magic],
 		// ['fauna', fauna],
