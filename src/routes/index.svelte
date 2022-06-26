@@ -39,12 +39,12 @@
 </svelte:head>
 
 <Cover />
-<CTA
+<!-- <CTA
 	title="Get your tickets now!"
 	text="There are just a couple of more weeks left to get your tickets at the regular price. Get yours now, before the price goes up!"
 	href="https://ti.to/svelte/svelte-summit-fall-edition"
 	id="ticket-cta"
-/>
+/> -->
 <Sponsors {sponsors} />
 <Speakers {speakers} />
 <Faq />
