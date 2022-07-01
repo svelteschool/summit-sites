@@ -27,7 +27,6 @@
 	export let speakers, sponsors;
 
 	import Cover from '$lib/cover/Cover.svelte';
-	import CTA from '$lib/CTA.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
 	import Speakers from '$lib/speakers/Speakers.svelte';
 

@@ -8,13 +8,6 @@ export const get = async () => {
         if (a.fullName === 'Rich Harris') return -1
         return 0
     })
-
-    const withMoreSoon = richFirst.push({
-        bio: 'These are just the first. More speakers announced soon. Want to speak at the event? Send in a proposal 👆',
-        isTopSpeaker: false,
-        fullName: 'More coming soon...',
-    })
-
     return {
         status: 200,
         body: richFirst
