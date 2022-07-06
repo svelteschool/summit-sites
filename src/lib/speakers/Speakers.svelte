@@ -59,7 +59,7 @@
 <style>
 	.grid {
 		grid-gap: 50px;
-		--grid-width: 400px;
+		grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
 	}
 	.center {
 		--max-width: 1180px;
@@ -110,10 +110,6 @@
 		width: 100%;
 		max-width: 100px;
 		border-radius: 9999px;
-	}
-
-	p {
-		margin-bottom: 1rem;
 	}
 
 	@media screen and (max-width: 850px) {

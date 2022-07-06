@@ -132,7 +132,7 @@
 		max-width: 200px;
 	}
 	.golds {
-		grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
+		grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
 	}
 
 	@media screen and (max-width: 600px) {
