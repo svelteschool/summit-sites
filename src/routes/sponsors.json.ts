@@ -7,12 +7,6 @@ export const get = () => {
 				desc: 'Netlify, the platform for modern web development.',
 				image: 'netlify'
 			},
-			// {
-			// 	url: 'https://monogram.io',
-			// 	name: 'Monogram',
-			// 	desc: 'Digital agency designing and developing the best Jamstack websites and web apps.',
-			// 	image: 'monogram'
-			// },
 			{
 				url: 'https://vercel.com',
 				name: 'Vercel',
@@ -24,7 +18,7 @@ export const get = () => {
 				name: 'GraphCMS',
 				desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
 				image: 'graphcms'
-			},
+			}
 		],
 		gold: [
 			{
@@ -33,7 +27,12 @@ export const get = () => {
 				desc: 'Storyblok is a Headless CMS that helps developers leverage the advantages of Svelte using reusable components and real-time visual editor.',
 				image: 'storyblok'
 			},
-			{},
+			{
+				url: 'https://monogram.io',
+				name: 'Monogram',
+				desc: 'Digital agency designing and developing the best Jamstack websites and web apps.',
+				image: 'monogram'
+			},
 			{},
 			{},
 			{},

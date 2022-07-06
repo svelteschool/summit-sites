@@ -1,6 +1,6 @@
 <script>
 	// Sponsor images
-	// import monogram from './images/monogram.png';
+	import monogram from './images/monogram.png';
 	import storyblok from './images/storyblok.png';
 	// import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
@@ -12,7 +12,7 @@
 	// import wpengine from './images/wpengine.png?w=300&webp';
 
 	const imageMap = new Map([
-		// ['monogram', monogram],
+		['monogram', monogram],
 		['storyblok', storyblok],
 		// ['array', array],
 		// ['cloudflare', cloudflare],
@@ -123,31 +123,21 @@
 		padding: 1rem;
 		height: 150px;
 	}
-
-	.silver {
-		min-height: 100px;
-	}
-
 	.platinum img {
 		max-height: 100px;
 	}
 
 	.gold img {
+		max-height: 80px;
 		max-width: 200px;
 	}
 	.golds {
 		grid-template-columns: repeat(auto-fit, minmax(250px, 0.5fr));
 	}
-	.silvers {
-		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-	}
 
 	@media screen and (max-width: 600px) {
 		.golds {
 			grid-template-columns: 1fr 1fr;
-		}
-		.silvers {
-			grid-template-columns: 1fr 1fr 1fr;
 		}
 		.gold {
 			height: 100px;
