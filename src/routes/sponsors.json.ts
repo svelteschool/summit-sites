@@ -15,9 +15,9 @@ export const get = () => {
 			},
 			{
 				url: 'https://graphcms.com/?utm_source=website&utm_medium=Referral&utm_campaign=SvelteSummit',
-				name: 'GraphCMS',
-				desc: 'GraphCMS gives you instant GraphQL Content APIs to create, enrich, federate, and deliver your content across platforms.',
-				image: 'graphcms'
+				name: 'Hygraph',
+				desc: "Hygraph (previously GraphCMS) is the enterprise-grade federated content platform that enables ambitious digital products at scale.",
+				image: 'hygraph'
 			}
 		],
 		gold: [
