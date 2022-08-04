@@ -33,7 +33,12 @@ export const get = () => {
 				desc: 'Digital agency designing and developing the best Jamstack websites and web apps.',
 				image: 'monogram'
 			},
-			{},
+			{
+				url: 'https://array.com/company/about-us',
+				name: 'Array',
+				desc: 'A financial wellness and identity tool that allows businesses  to leverage consumers credit data to offer new tailored services and products to their end users',
+				image: 'array'
+			},
 			{},
 			{},
 			{}
@@ -42,12 +47,6 @@ export const get = () => {
 			// 	name: 'Storyblok',
 			// 	desc: 'Storyblok is a Headless CMS that helps developers leverage the advantages of Svelte using reusable components and real-time visual editor.',
 			// 	image: 'storyblok'
-			// },
-			// {
-			// 	url: 'https://array.com/company/about-us',
-			// 	name: 'Array',
-			// 	desc: 'A financial wellness and identity tool that allows businesses  to leverage consumers credit data to offer new tailored services and products to their end users',
-			// 	image: 'array'
 			// },
 			// {
 			// 	url: 'https://javascriptdb.com/?ctx=svelte-summit',

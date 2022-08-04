@@ -2,7 +2,7 @@
 	// Sponsor images
 	import monogram from './images/monogram.png';
 	import storyblok from './images/storyblok.png';
-	// import array from './images/array.png';
+	import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
 	import netlify from './images/netlify.png';
 	import hygraph from './images/hygraph.png';
@@ -14,7 +14,7 @@
 	const imageMap = new Map([
 		['monogram', monogram],
 		['storyblok', storyblok],
-		// ['array', array],
+		['array', array],
 		// ['cloudflare', cloudflare],
 		['netlify', netlify],
 		['hygraph', hygraph],
