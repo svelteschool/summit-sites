@@ -29,6 +29,7 @@
 	import Cover from '$lib/cover/Cover.svelte';
 	import Sponsors from '$lib/sponsors/Sponsors.svelte';
 	import Speakers from '$lib/speakers/Speakers.svelte';
+	import Master from '$lib/moc/Master.svelte';
 
 	import Faq from '$lib/faq/Faq.svelte';
 </script>
@@ -46,4 +47,5 @@
 /> -->
 <Sponsors {sponsors} />
 <Speakers {speakers} />
+<Master />
 <Faq />
