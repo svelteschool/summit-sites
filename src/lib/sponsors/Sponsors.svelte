@@ -5,6 +5,7 @@
 	import array from './images/array.png';
 	// import cloudflare from './images/cloudflare.svg';
 	import netlify from './images/netlify.png';
+	import smore from './images/smore.png';
 	import hygraph from './images/hygraph.png';
 	import vercel from './images/vercel.png';
 	// import jsdb from './images/jsdb.svg';
@@ -18,8 +19,8 @@
 		// ['cloudflare', cloudflare],
 		['netlify', netlify],
 		['hygraph', hygraph],
-		['vercel', vercel]
-		// ['jsdb', jsdb]
+		['vercel', vercel],
+		['smore', smore]
 		// ['magic', magic],
 		// ['fauna', fauna],
 		// ['wpengine', wpengine],

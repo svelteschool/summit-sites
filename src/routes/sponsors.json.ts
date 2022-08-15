@@ -39,15 +39,14 @@ export const get = () => {
 				desc: 'A financial wellness and identity tool that allows businesses  to leverage consumers credit data to offer new tailored services and products to their end users',
 				image: 'array'
 			},
-			{},
+			{
+				url: 'http://smore.com/',
+				name: 'Smore',
+				desc: `Smore makes it easy to design beautiful and effective online newsletters. Smore helps more than 70% of the school districts in North America to communicate on a daily basis with their staff, parents and community.`,
+				image: 'smore'
+			},
 			{},
 			{}
-			// {
-			// 	url: 'https://www.storyblok.com/?utm_source=sveltesummit&utm_medium=logo&utm_campaign=sveltesummit2022',
-			// 	name: 'Storyblok',
-			// 	desc: 'Storyblok is a Headless CMS that helps developers leverage the advantages of Svelte using reusable components and real-time visual editor.',
-			// 	image: 'storyblok'
-			// },
 			// {
 			// 	url: 'https://javascriptdb.com/?ctx=svelte-summit',
 			// 	name: 'JavascriptDB',
