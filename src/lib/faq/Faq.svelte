@@ -22,10 +22,26 @@
 				</dd>
 			</div>
 			<div class="question">
-				<dt>How many sessions will there be?</dt>
-				<dd>We're aiming to have around 15 sessions spread out over two days.</dd>
+				<dt>Is there a schedule?</dt>
+				<dd>
+					Yes! You can find it <a
+						href="https://svelte-summit-fall-2022.sessionize.com"
+						target="_blank"
+						rel="noopener noreferrer">here</a
+					>.
+				</dd>
 			</div>
 			<div class="question">
+				<dt>Where is the venue?</dt>
+				<dd>
+					The conference will take place at <a
+						href="https://www.lifecity.se"
+						target="_blank"
+						rel="noopener noreferrer">Life City</a
+					>. The address is Solnavägen 3, 113 63 Solna.
+				</dd>
+			</div>
+			<!-- <div class="question">
 				<dt>Will it be recorded?</dt>
 				<dd>
 					Absolutely! You'll find it on the <a
@@ -34,8 +50,8 @@
 						rel="noopener noreferrer">Svelte Society YouTube channel</a
 					> once the event has been finished.
 				</dd>
-			</div>
-			<dt>Can you remind me when the date gets closer?</dt>
+			</div> -->
+			<!-- <dt>Can you remind me when the date gets closer?</dt>
 			<dd>Yes, <a href="#signup">enter your email here</a>.</dd>
 			<dt>I'd like to do a talk, how can I submit one?</dt>
 			<dd>
@@ -54,7 +70,7 @@
 						rel="noopener noreferrer">Code of Conduct</a
 					>.
 				</dd>
-			</div>
+			</div> -->
 			<div class="question">
 				<dt>I want to sponsor the event!</dt>
 				<dd>
