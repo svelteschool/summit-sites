@@ -8,7 +8,7 @@
 			bio: '',
 			links: [
 				{
-					url: 'https://twitter.com/TejasKumar'
+					url: 'https://twitter.com/TejasKumar_'
 				}
 			]
 		},
