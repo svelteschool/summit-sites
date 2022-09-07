@@ -38,7 +38,8 @@
 						href="https://www.lifecity.se"
 						target="_blank"
 						rel="noopener noreferrer">Life City</a
-					>. The address is Solnavägen 3, 113 63 Solna.
+					>. The address is Solnavägen 3, 113 63 Stockholm. Apple Maps shows the wrong location,
+					beware! You should also be able to find it by putting in "Life City".
 				</dd>
 			</div>
 			<!-- <div class="question">
